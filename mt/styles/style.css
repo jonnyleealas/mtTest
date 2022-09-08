@@ -196,6 +196,51 @@ main {
 .info {
   background: #282828;
   grid-area: info;
+  color: #919191;
+}
+
+.info_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid: "info_1 info_2 info_3 info_4 info_5";
+}
+
+.info_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "resources" "company";
+}
+
+.resources {
+  grid-area: resources;
+}
+
+.company {
+  grid-area: company;
+}
+
+.info_3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "store" "extras";
+}
+
+.info_5 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "subscribe" "email_input" "problem" "faq" "social";
+}
+
+.social {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "social_icons likes follow";
 }
 
 footer {
