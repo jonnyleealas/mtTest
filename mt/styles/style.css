@@ -94,7 +94,7 @@ main {
 }
 
 .secondMain {
-  background: #fff;
+  background: rgb(187, 8, 8);
   grid-area: secondMain;
 }
 
