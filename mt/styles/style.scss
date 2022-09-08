@@ -1,3 +1,10 @@
+@import './nav';
+@import './main';
+@import './secondMain';
+@import './sidebar';
+@import './info';
+@import './footer';
+
 .container {
     display: grid;
     height: 100vh;
@@ -9,58 +16,9 @@
         "nav nav nav"
         "main main sidebar"
         "secondMain secondMain sidebar"
-        "content content content"
+        "info info info"
         "footer footer footer";
         font-family: 'Lato';   
-}
-
-nav{
-    background: rgb(0, 255, 204);
-    grid-area: nav;
-
-}
-
-.nav_inner {
-    display: grid;
-    height: .5fr;
-    grid-template-columns: 
-    .5fr 1fr .8fr 1fr;
-    grid-template-rows: 
-    1fr;
-    grid-template-areas: 
-    "nav_logo drop_down nav_empty nav_login";
-}
-
-.nav_logo {
-    background: pink;
-    grid-area: nav_logo;
-}
-
-main {
-    background: rgb(9, 185, 144);
-    grid-area: main;
-}
-
-.secondMain {
-    background: lightpink;
-    grid-area: secondMain;
-
-}
-
-.sidebar {
-    background: rgb(22, 150, 138);
-    grid-area: sidebar;
-    background: #FAFAFA;
-}
-
-.content {
-    background: #282828;;
-    grid-area: content;
-}
-
-footer {
-    background: #171717;
-    grid-area: footer;
 }
 
 @media only screen and (max-width:550px){
@@ -74,7 +32,7 @@ footer {
     "main"
     "sidebar"
     "secondMain"
-    "content"
+    "info"
     "footer"
   }
 }

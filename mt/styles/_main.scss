@@ -1,0 +1,31 @@
+
+main {
+    background: E5E5E5;
+    grid-area: main;
+}
+
+.my_cart{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "my_cart_h1"
+    "song_1"
+    "continue";
+}
+
+.my_cart {
+    background: E5E5E5;
+    grid-area: my_cart_h1;
+}
+
+.song_1 {
+    background: E5E5E5;
+    grid-area: song_1;
+}
+
+.continue {
+    background: E5E5E5;
+    grid-area: continue;
+}

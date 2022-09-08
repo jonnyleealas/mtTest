@@ -1,0 +1,30 @@
+
+nav{
+    background: rgb(228, 109, 109);
+    grid-area: nav;
+
+}
+
+.nav_inner {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 
+    .5fr 1fr 1fr .6fr;
+    grid-template-rows: 
+    1fr;
+    grid-template-areas: 
+    "nav_logo drop_down nav_empty nav_login";
+}
+
+.nav_logo {
+    background: pink;
+    grid-area: nav_logo;
+}
+
+.drop_down {
+    background-color: aqua;
+}
+
+.nav_empty {
+    background-color: aquamarine;
+}
