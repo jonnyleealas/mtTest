@@ -10,13 +10,30 @@
         "main main sidebar"
         "secondMain secondMain sidebar"
         "content content content"
-        "footer footer footer"   
+        "footer footer footer";
+        font-family: 'Lato';   
 }
 
 nav{
     background: rgb(0, 255, 204);
     grid-area: nav;
 
+}
+
+.nav_inner {
+    display: grid;
+    height: .5fr;
+    grid-template-columns: 
+    .5fr 1fr .8fr 1fr;
+    grid-template-rows: 
+    1fr;
+    grid-template-areas: 
+    "nav_logo drop_down nav_empty nav_login";
+}
+
+.nav_logo {
+    background: pink;
+    grid-area: nav_logo;
 }
 
 main {
