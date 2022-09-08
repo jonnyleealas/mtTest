@@ -7,25 +7,58 @@ main {
 .my_cart{
     display: grid;
     height: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-template-areas: 
     "my_cart_h1"
     "song_1"
-    "continue";
+    "song_2"
+    "continue"
+    "save_later"
 }
 
-.my_cart {
+.my_cart_h1 {
     background: E5E5E5;
     grid-area: my_cart_h1;
 }
 
 .song_1 {
-    background: E5E5E5;
+    background:rgb(13, 170, 52);
     grid-area: song_1;
 }
 
+
+.song_1_inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "song_1_img"
+    "mt_logo"
+    "credits";
+}
+
+.song_1_img {
+    background: rgb(134, 81, 81);
+    grid-area: song_1_img;
+}
+
+.mt_logo {
+    background: rgb(152, 35, 35);
+    grid-area: mt_logo;
+}
+
+.credits {
+    background: rgb(179, 104, 104);
+    grid-area: credits;
+}
+
+.song_2 {
+    background: rgb(170, 13, 13);
+    grid-area: song_2;
+}
+
 .continue {
-    background: E5E5E5;
+    background: green;
     grid-area: continue;
 }
