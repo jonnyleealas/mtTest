@@ -30,12 +30,11 @@ main {
 
 .song_1_inner {
     display: grid;
+    height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "song_1_img"
-    "mt_logo"
-    "credits";
+    "song_1_img mt_logo credits";
 }
 
 .song_1_img {
