@@ -53,8 +53,9 @@ footer {
 
 @media only screen and (max-width: 550px) {
   .container {
+    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 3fr 3fr 2fr 2fr 0.2fr;
+    grid-template-rows: 0.2fr 1fr 2fr 3fr 3fr 0.8fr;
     grid-template-areas: "nav" "main" "sidebar" "secondMain" "content" "footer";
   }
 }/*# sourceMappingURL=style.css.map */
