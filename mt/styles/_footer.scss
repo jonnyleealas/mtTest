@@ -3,4 +3,16 @@
 footer {
     background: #171717;
     grid-area: footer;
+    color: #919191;
 }
+
+.footer {
+    display: grid;
+    text-align: center;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "copyrights terms language";
+}
+
