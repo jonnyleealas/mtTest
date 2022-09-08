@@ -1,24 +1,22 @@
-
 main {
-    background: E5E5E5;
     grid-area: main;
 }
 
-.my_cart{
+.my_cart {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows:  .57fr 1fr 1fr 1fr 1fr 1fr 1fr .3fr ;
-    grid-template-areas: 
-    "my_cart_h1"
-    "song_1"
-    "song_2"
-    "continue"
-    "save_later"
-    "song_3"
-    "song_4"
-    "song_5"
-    "song_5_empty";
+    grid-template-rows: .57fr 1fr 1fr 1fr 1fr 1fr 1fr .3fr;
+    grid-template-areas:
+        "my_cart_h1"
+        "song_1"
+        "song_2"
+        "continue"
+        "save_later"
+        "song_3"
+        "song_4"
+        "song_5"
+        "song_5_empty";
 }
 
 .my_cart_h1 {
@@ -27,7 +25,7 @@ main {
 }
 
 .song_1 {
-    background:rgb(13, 170, 52);
+    // background:rgb(13, 170, 52);
     grid-area: song_1;
 }
 
@@ -37,27 +35,27 @@ main {
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 
-    "song_1_img mt_logo credits";
+    grid-template-areas:
+        "song_1_img mt_logo credits";
 }
 
 .song_1_img {
-    background: rgb(134, 81, 81);
+    // background: rgb(134, 81, 81);
     grid-area: song_1_img;
 }
 
 .mt_logo {
-    background: rgb(152, 35, 35);
+    // background: rgb(152, 35, 35);
     grid-area: mt_logo;
 }
 
 .credits {
-    background: rgb(179, 104, 104);
+    // background: rgb(179, 104, 104);
     grid-area: credits;
 }
 
 .song_2 {
-    background: rgb(170, 13, 13);
+    // background: rgb(170, 13, 13);
     grid-area: song_2;
 }
 
@@ -66,23 +64,23 @@ main {
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 
-    "song_2_img chart credits2";
+    grid-template-areas:
+        "song_2_img chart credits2";
 }
 
 .song_2_img {
-    background: rgb(81, 87, 134);
+    // background: rgb(81, 87, 134);
     grid-area: song_2_img;
 }
 
 .chart {
-    background: rgb(72, 17, 17);
+    // background: rgb(72, 17, 17);
     grid-area: chart;
 }
 
 
 .continue {
-    background: rgb(138, 192, 138);
+    // background: rgb(138, 192, 138);
     grid-area: continue;
 }
 
@@ -90,13 +88,13 @@ main {
 
 
 .save_later {
-    background: green;
+    // background: green;
     grid-area: save_later;
 }
 
 // song 3
 .song_3 {
-    background: lightblue;
+    // background: lightblue;
     grid-area: song_3;
 }
 
@@ -105,25 +103,25 @@ main {
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 
-    "song_3_img mt_l add_cart";
+    grid-template-areas:
+        "song_3_img mt_l add_cart";
 }
 
-.song_3_img {
-    background: purple;
-}
+// .song_3_img {
+//     background: purple;
+// }
 
-.mt_l {
-    background: rgb(143, 106, 143);
-}
+// .mt_l {
+//     background: rgb(143, 106, 143);
+// }
 
-.add_cart {
-    background: rgb(97, 75, 33);
-}
+// .add_cart {
+//     background: rgb(97, 75, 33);
+// }
 
 // song 4
 .song_4 {
-    background: lightblue;
+    // background: lightblue;
     grid-area: song_4;
 }
 
@@ -132,21 +130,21 @@ main {
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 
-    "song_4_img mt_l4 add_cart4";
+    grid-template-areas:
+        "song_4_img mt_l4 add_cart4";
 }
 
 .song_4_img {
-    background: purple;
+    // background: purple;
 }
 
-.mt_l4 {
-    background: rgb(143, 106, 143);
-}
+// .mt_l4 {
+//     background: rgb(143, 106, 143);
+// }
 
-.add_cart4 {
-    background: rgb(97, 75, 33);
-}
+// .add_cart4 {
+//     background: rgb(97, 75, 33);
+// }
 
 
 
@@ -157,7 +155,7 @@ main {
 // song 5
 
 .song_5 {
-    background: lightblue;
+    // background: lightblue;
     grid-area: song_5;
 }
 
@@ -166,25 +164,24 @@ main {
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 
-    "song_5_img mt_l5 add_cart5";
+    grid-template-areas:
+        "song_5_img mt_l5 add_cart5";
 }
 
-.song_5_img {
-    background: purple;
-}
+// .song_5_img {
+//     background: purple;
+// }
 
-.mt_l5 {
-    background: rgb(143, 106, 143);
-}
+// .mt_l5 {
+//     background: rgb(143, 106, 143);
+// }
 
-.add_cart5 {
-    background: rgb(97, 75, 33);
-}
+// .add_cart5 {
+//     background: rgb(97, 75, 33);
+// }
 
 
 .song_5_empty {
     background: yellowgreen;
     grid-area: song_5;
 }
-
