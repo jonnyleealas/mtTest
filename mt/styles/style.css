@@ -75,6 +75,19 @@ main {
   grid-area: song_2;
 }
 
+.song_2_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "song_2_img chart credits2";
+}
+
+.song_2_img {
+  background: rgb(81, 87, 134);
+  grid-area: song_2_img;
+}
+
 .continue {
   background: green;
   grid-area: continue;
