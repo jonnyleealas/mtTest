@@ -11,11 +11,10 @@
     grid-template-columns: 
     1fr 1fr 1fr;
     grid-template-rows: 
-    .5fr 4fr 4fr 3fr .4fr;
+    1fr 4fr 4fr .8fr;
     grid-template-areas:
         "nav nav nav"
         "main main sidebar"
-        "secondMain secondMain sidebar"
         "info info info"
         "footer footer footer";
         font-family: 'Lato';   

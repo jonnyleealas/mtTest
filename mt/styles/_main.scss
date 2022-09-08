@@ -8,13 +8,17 @@ main {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr ;
     grid-template-areas: 
     "my_cart_h1"
     "song_1"
     "song_2"
     "continue"
     "save_later"
+    "song_3"
+    "song_4"
+    "song_5"
+    "song_5_empty";
 }
 
 .my_cart_h1 {
@@ -71,8 +75,116 @@ main {
     grid-area: song_2_img;
 }
 
+.chart {
+    background: rgb(72, 17, 17);
+    grid-area: chart;
+}
+
 
 .continue {
-    background: green;
+    background: rgb(138, 192, 138);
     grid-area: continue;
 }
+
+// This is the second half of the main card that holds 3 songs
+
+
+.save_later {
+    background: green;
+    grid-area: save_later;
+}
+
+// song 3
+.song_3 {
+    background: lightblue;
+    grid-area: song_3;
+}
+
+.song_3_inner {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "song_3_img mt_l add_cart";
+}
+
+.song_3_img {
+    background: purple;
+}
+
+.mt_l {
+    background: rgb(143, 106, 143);
+}
+
+.add_cart {
+    background: rgb(97, 75, 33);
+}
+
+// song 4
+.song_4 {
+    background: lightblue;
+    grid-area: song_4;
+}
+
+.song_4_inner {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "song_4_img mt_l4 add_cart4";
+}
+
+.song_4_img {
+    background: purple;
+}
+
+.mt_l4 {
+    background: rgb(143, 106, 143);
+}
+
+.add_cart4 {
+    background: rgb(97, 75, 33);
+}
+
+
+
+
+
+
+
+// song 5
+
+.song_5 {
+    background: lightblue;
+    grid-area: song_5;
+}
+
+.song_5_inner {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "song_5_img mt_l5 add_cart5";
+}
+
+.song_5_img {
+    background: purple;
+}
+
+.mt_l5 {
+    background: rgb(143, 106, 143);
+}
+
+.add_cart5 {
+    background: rgb(97, 75, 33);
+}
+
+
+.song_5_empty {
+    background: yellowgreen;
+    grid-area: song_5;
+}
+
