@@ -33,7 +33,7 @@ main {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.57fr 1fr 1fr 1fr 1fr 1fr 1fr 0.3fr;
   grid-template-areas: "my_cart_h1" "song_1" "song_2" "continue" "save_later" "song_3" "song_4" "song_5" "song_5_empty";
 }
 
@@ -262,7 +262,7 @@ footer {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 4fr 4fr 0.8fr;
+  grid-template-rows: 0.4fr 5fr 2fr 0.3fr;
   grid-template-areas: "nav nav nav" "main main sidebar" "info info info" "footer footer footer";
   font-family: "Lato";
 }
