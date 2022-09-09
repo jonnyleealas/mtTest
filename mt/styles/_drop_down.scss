@@ -11,7 +11,6 @@
         float: left;
         list-style: none;
         position: relative;
-
     }
 
     .dropdown ul li a {
@@ -19,8 +18,8 @@
         font-size: 16px;
     }
 
-    .dropdown ul li a:hover{
-        
+    .dropdown ul li a:hover {
+
         color: rgb(90, 187, 243);
     }
 
@@ -33,19 +32,15 @@
         overflow-y: hidden;
         overflow-x: hidden;
         border-radius: 5px 5px 5px 5px;
-
     }
 
     .dropdown ul li:hover ul {
         display: block;
-
-
     }
 
     .dropdown ul li ul li a {
         width: 241px;
         padding: 10px 14px;
-
     }
 
     .dropdown ul li ul li a:hover {
@@ -76,8 +71,8 @@
         font-size: 16px;
     }
 
-    .songs ul li a:hover{
-        
+    .songs ul li a:hover {
+
         color: rgb(90, 187, 243);
     }
 
@@ -90,7 +85,6 @@
         overflow-y: hidden;
         overflow-x: hidden;
         border-radius: 5px 5px 5px 5px;
-
     }
 
     .songs ul li:hover ul {
@@ -109,7 +103,6 @@
         background: #FAFAFA;
         border-radius: 4px;
         color: rgb(90, 187, 243);
-
     }
 }
 
@@ -135,8 +128,8 @@
         font-size: 16px;
     }
 
-    .sounds ul li a:hover{
-        
+    .sounds ul li a:hover {
+
         color: rgb(90, 187, 243);
     }
 
@@ -149,26 +142,21 @@
         overflow-y: hidden;
         overflow-x: hidden;
         border-radius: 5px 5px 5px 5px;
-
     }
 
     .sounds ul li:hover ul {
         display: block;
-
-
     }
 
     .sounds ul li ul li a {
         width: 241px;
         padding: 10px 14px;
-
     }
 
     .sounds ul li ul li a:hover {
         background: #FAFAFA;
         border-radius: 4px;
         color: rgb(90, 187, 243);
-
     }
 }
 
@@ -186,7 +174,6 @@
         float: left;
         list-style: none;
         position: relative;
-
     }
 
     .more ul li a {
@@ -208,7 +195,6 @@
         overflow-y: hidden;
         overflow-x: hidden;
         border-radius: 5px 5px 5px 5px;
-
     }
 
     .more ul li:hover ul {
@@ -224,6 +210,5 @@
         background: #FAFAFA;
         border-radius: 4px;
         color: rgb(90, 187, 243);
-
     }
 }
