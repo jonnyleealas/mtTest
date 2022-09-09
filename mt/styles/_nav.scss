@@ -1,6 +1,7 @@
 @import './drop_down';
 @include drop_down(products);
 @include songs(songs);
+@include sounds(sounds);
 nav {
     grid-area: nav;
     padding: 20px 10px 10px 10px;
@@ -11,11 +12,11 @@ nav {
     display: grid;
     height: 100%;
     margin: auto;
-    grid-template-columns: 2fr .8fr .8fr .8fr .8fr .8fr 3.8fr .8fr .8fr .8fr .8fr;
+    grid-template-columns: 2fr .8fr .8fr .8fr .8fr .8fr .8fr 3.8fr .8fr .8fr .8fr .8fr;
     grid-template-rows:
         1fr;
     grid-template-areas:
-        "nav_logo products songs pricing more covid . account cart support sup_in";
+        "nav_logo products sounds songs pricing more covid . account cart support sup_in";
     text-align: center;
 
 }
@@ -31,6 +32,10 @@ nav {
 
 .products {
     grid-area: products;
+}
+
+.sounds {
+    grid-area: sounds;
 }
 
 .songs {

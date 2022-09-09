@@ -88,6 +88,51 @@
   color: rgb(90, 187, 243);
 }
 
+.sounds {
+  grid-area: sounds;
+}
+
+.sounds ul {
+  float: left;
+}
+
+.sounds ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+.sounds ul li a {
+  display: block;
+  font-size: 16px;
+}
+
+.sounds ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 2px solid #dadada;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.sounds ul li:hover ul {
+  display: block;
+}
+
+.sounds ul li ul li a {
+  width: 241px;
+  padding: 10px 14px;
+}
+
+.sounds ul li ul li a:hover {
+  background: #FAFAFA;
+  border-radius: 4px;
+  color: rgb(90, 187, 243);
+}
+
 nav {
   grid-area: nav;
   padding: 20px 10px 10px 10px;
@@ -97,9 +142,9 @@ nav {
   display: grid;
   height: 100%;
   margin: auto;
-  grid-template-columns: 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 3.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+  grid-template-columns: 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 3.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "nav_logo products songs pricing more covid . account cart support sup_in";
+  grid-template-areas: "nav_logo products sounds songs pricing more covid . account cart support sup_in";
   text-align: center;
 }
 
@@ -111,6 +156,10 @@ nav {
 
 .products {
   grid-area: products;
+}
+
+.sounds {
+  grid-area: sounds;
 }
 
 .songs {

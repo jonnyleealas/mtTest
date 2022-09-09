@@ -101,3 +101,57 @@
         
      }
 }
+
+
+@mixin sounds($sounds){
+    .sounds {
+        grid-area: $sounds;
+    }
+    
+    .sounds ul {
+        float: left;
+    }
+    
+    .sounds ul li {
+        float: left;
+        list-style: none;
+        position: relative;
+    
+    }
+    
+    .sounds ul li a {
+        display: block;
+        font-size: 16px;
+    
+        
+    }
+    .sounds ul li ul{
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        border: 2px solid #dadada;
+        overflow: hidden;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        border-radius:  5px 5px 5px 5px;
+        
+    }
+    
+    .sounds ul li:hover ul{
+        display: block;
+       
+        
+    }
+    .sounds ul li ul li a{
+        width: 241px;
+       padding: 10px 14px;
+       
+    }
+    .sounds ul li ul li a:hover {
+        background: #FAFAFA;
+        border-radius: 4px;
+        color: rgb(90, 187, 243);
+        
+     }
+}
+
