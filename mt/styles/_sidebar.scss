@@ -18,16 +18,17 @@
         ". sales_final ."
         ". order_button ."
         ". policy .";
-    background: #FAFAFA;
+    background: #d21010;
     grid-area: sidebar;
-
 }
 
 .order_sum {
+    font-size: 100px;
     grid-area: order_sum;
 }
 
 .credit_acc {
+
     grid-area: credit_acc;
 }
 
