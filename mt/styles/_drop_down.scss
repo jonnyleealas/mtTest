@@ -1,210 +1,230 @@
-@mixin drop_down($dropdown){
+@mixin drop_down($dropdown) {
     .dropdown {
         grid-area: $dropdown;
     }
-    
+
     .dropdown ul {
         float: left;
     }
-    
+
     .dropdown ul li {
         float: left;
         list-style: none;
         position: relative;
-    
+
     }
-    
+
     .dropdown ul li a {
         display: block;
         font-size: 16px;
-    
-        
     }
-    .dropdown ul li ul{
+
+    .dropdown ul li a:hover{
+        
+        color: rgb(90, 187, 243);
+    }
+
+    .dropdown ul li ul {
         display: none;
         position: absolute;
         background-color: #fff;
         border: 2px solid #dadada;
         overflow: hidden;
-            overflow-y: hidden;
-            overflow-x: hidden;
-        border-radius:  5px 5px 5px 5px;
-        
+        overflow-y: hidden;
+        overflow-x: hidden;
+        border-radius: 5px 5px 5px 5px;
+
     }
-    
-    .dropdown ul li:hover ul{
+
+    .dropdown ul li:hover ul {
         display: block;
-       
-        
+
+
     }
-    .dropdown ul li ul li a{
+
+    .dropdown ul li ul li a {
         width: 241px;
-       padding: 10px 14px;
-       
+        padding: 10px 14px;
+
     }
+
     .dropdown ul li ul li a:hover {
         background: #FAFAFA;
         border-radius: 4px;
         color: rgb(90, 187, 243);
-        
-     }
+
+    }
 }
 
-@mixin songs($songs){
+@mixin songs($songs) {
     .songs {
         grid-area: $songs;
     }
-    
+
     .songs ul {
         float: left;
     }
-    
+
     .songs ul li {
         float: left;
         list-style: none;
         position: relative;
-    
+
     }
-    
+
     .songs ul li a {
         display: block;
         font-size: 16px;
-    
-        
     }
-    .songs ul li ul{
+
+    .songs ul li a:hover{
+        
+        color: rgb(90, 187, 243);
+    }
+
+    .songs ul li ul {
         display: none;
         position: absolute;
         background-color: #fff;
         border: 2px solid #dadada;
         overflow: hidden;
-            overflow-y: hidden;
-            overflow-x: hidden;
-        border-radius:  5px 5px 5px 5px;
-        
+        overflow-y: hidden;
+        overflow-x: hidden;
+        border-radius: 5px 5px 5px 5px;
+
     }
-    
-    .songs ul li:hover ul{
+
+    .songs ul li:hover ul {
         display: block;
-       
-        
+
+
     }
-    .songs ul li ul li a{
+
+    .songs ul li ul li a {
         width: 241px;
-       padding: 10px 14px;
-       
+        padding: 10px 14px;
+
     }
+
     .songs ul li ul li a:hover {
         background: #FAFAFA;
         border-radius: 4px;
         color: rgb(90, 187, 243);
-        
-     }
+
+    }
 }
 
 
-@mixin sounds($sounds){
+@mixin sounds($sounds) {
     .sounds {
         grid-area: $sounds;
     }
-    
+
     .sounds ul {
         float: left;
     }
-    
+
     .sounds ul li {
         float: left;
         list-style: none;
         position: relative;
-    
+
     }
-    
+
     .sounds ul li a {
         display: block;
         font-size: 16px;
-    
-        
     }
-    .sounds ul li ul{
+
+    .sounds ul li a:hover{
+        
+        color: rgb(90, 187, 243);
+    }
+
+    .sounds ul li ul {
         display: none;
         position: absolute;
         background-color: #fff;
         border: 2px solid #dadada;
         overflow: hidden;
-            overflow-y: hidden;
-            overflow-x: hidden;
-        border-radius:  5px 5px 5px 5px;
-        
+        overflow-y: hidden;
+        overflow-x: hidden;
+        border-radius: 5px 5px 5px 5px;
+
     }
-    
-    .sounds ul li:hover ul{
+
+    .sounds ul li:hover ul {
         display: block;
-       
-        
+
+
     }
-    .sounds ul li ul li a{
+
+    .sounds ul li ul li a {
         width: 241px;
-       padding: 10px 14px;
-       
+        padding: 10px 14px;
+
     }
+
     .sounds ul li ul li a:hover {
         background: #FAFAFA;
         border-radius: 4px;
         color: rgb(90, 187, 243);
-        
-     }
+
+    }
 }
 
 
-@mixin more($more){
+@mixin more($more) {
     .more {
         grid-area: $more;
     }
-    
+
     .more ul {
         float: left;
     }
-    
+
     .more ul li {
         float: left;
         list-style: none;
         position: relative;
-    
+
     }
-    
+
     .more ul li a {
         display: block;
         font-size: 16px;
-    
-        
     }
-    .more ul li ul{
+
+    .more ul li a:hover {
+
+        color: rgb(90, 187, 243);
+    }
+
+    .more ul li ul {
         display: none;
         position: absolute;
         background-color: #fff;
         border: 2px solid #dadada;
         overflow: hidden;
-            overflow-y: hidden;
-            overflow-x: hidden;
-        border-radius:  5px 5px 5px 5px;
-        
+        overflow-y: hidden;
+        overflow-x: hidden;
+        border-radius: 5px 5px 5px 5px;
+
     }
-    
-    .more ul li:hover ul{
+
+    .more ul li:hover ul {
         display: block;
-       
-        
     }
-    .more ul li ul li a{
+
+    .more ul li ul li a {
         width: 241px;
-       padding: 10px 14px;
-       
+        padding: 10px 14px;
     }
+
     .more ul li ul li a:hover {
         background: #FAFAFA;
         border-radius: 4px;
         color: rgb(90, 187, 243);
-        
-     }
-}
 
+    }
+}

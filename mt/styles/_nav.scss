@@ -17,18 +17,14 @@ nav {
     grid-template-rows:
         1fr;
     grid-template-areas:
-        "nav_logo products songs sounds pricing more covid . account cart support sup_in";
+        "nav_logo products songs sounds pricing more covid . account cart support help_center";
     text-align: center;
-
 }
 
 .nav_logo {
     height: 100%;
-
     margin-top: -6px;
-    // background: pink;
     grid-area: nav_logo;
-
 }
 
 .products {
@@ -47,26 +43,44 @@ nav {
     grid-area: pricing;
 }
 
+.pricing a:hover{     
+    color: rgb(90, 187, 243);
+}
+
 .more {
     grid-area: more;
 }
 
 .covid {
     grid-area: covid;
+    color: rgb(90, 187, 243);
 }
 
 .account {
     grid-area: account;
 }
 
+.account a:hover{     
+    color: rgb(90, 187, 243);
+}
+
 .cart {
     grid-area: cart;
+}
+
+.cart a:hover{     
+    color: rgb(90, 187, 243);
 }
 
 .support {
     grid-area: support;
 }
 
-.sup_in {
-    grid-area: sup_in;
+.support a:hover{     
+    color: rgb(90, 187, 243);
+}
+
+
+.help_center {
+    grid-area: help_center;
 }
