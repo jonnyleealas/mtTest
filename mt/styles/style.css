@@ -6,13 +6,53 @@ nav {
 .nav_inner {
   display: grid;
   height: 100%;
-  grid-template-columns: 1fr 1fr 1fr 0.6fr;
+  margin: auto;
+  grid-template-columns: 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 3.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "nav_logo drop_down nav_empty nav_login";
+  grid-template-areas: "nav_logo products songs pricing more covid . account cart support sup_in";
+  text-align: center;
 }
 
 .nav_logo {
+  height: 100%;
+  margin-top: -6px;
   grid-area: nav_logo;
+}
+
+.products {
+  grid-area: products;
+}
+
+.songs {
+  grid-area: songs;
+}
+
+.pricing {
+  grid-area: pricing;
+}
+
+.more {
+  grid-area: more;
+}
+
+.covid {
+  grid-area: covid;
+}
+
+.account {
+  grid-area: account;
+}
+
+.cart {
+  grid-area: cart;
+}
+
+.support {
+  grid-area: support;
+}
+
+.sup_in {
+  grid-area: sup_in;
 }
 
 main {
