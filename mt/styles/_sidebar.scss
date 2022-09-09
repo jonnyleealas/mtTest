@@ -1,10 +1,4 @@
 .sidebar {
-    background: #FAFAFA;
-    grid-area: sidebar;
-
-}
-
-.sidebar_inner {
     display: grid;
     height: auto;
     grid-template-columns: .3fr 1fr .2fr;
@@ -24,8 +18,15 @@
         ". sales_final ."
         ". order_button ."
         ". policy .";
+    background: #FAFAFA;
+    grid-area: sidebar;
 
-    padding-bottom: 10px;
+}
+
+.sidebar_inner {
+   
+
+    // padding-bottom: 10px;
 
 }
 

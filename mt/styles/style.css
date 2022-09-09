@@ -201,8 +201,6 @@ nav {
 
 .nav_inner {
   display: grid;
-  height: 30px;
-  margin: auto;
   grid-template-columns: 2.5fr 0.8fr 0.8fr 0.5fr 0.8fr 0.4fr 0.8fr 3.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
   grid-template-rows: 1fr;
   grid-template-areas: "nav_logo products songs sounds pricing more covid . account cart support help_center";
@@ -274,7 +272,6 @@ nav {
 
 .my_cart {
   display: grid;
-  height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 0.57fr 1fr 1fr 1fr;
   grid-template-areas: "my_cart_h1" "song_1" "song_2" "continue";
@@ -335,7 +332,6 @@ nav {
 
 .save {
   display: grid;
-  height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
   grid-template-areas: "save_later" "song_3" "song_4" "song_5" "song_5_empty";
@@ -388,7 +384,6 @@ nav {
 
 main {
   display: grid;
-  height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "my_cart" "save";
@@ -397,7 +392,6 @@ main {
 
 .my_cart {
   display: grid;
-  height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 0.57fr 1fr 1fr 1fr;
   grid-template-areas: "my_cart_h1" "song_1" "song_2" "continue";
@@ -458,7 +452,6 @@ main {
 
 .save {
   display: grid;
-  height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
   grid-template-areas: "save_later" "song_3" "song_4" "song_5" "song_5_empty";
@@ -510,17 +503,13 @@ main {
 }
 
 .sidebar {
-  background: #FAFAFA;
-  grid-area: sidebar;
-}
-
-.sidebar_inner {
   display: grid;
   height: auto;
   grid-template-columns: 0.3fr 1fr 0.2fr;
   grid-template-rows: 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f;
   grid-template-areas: ". . ." ". order_sum ." ". credit_acc ." ". credits_req ." ". promo_code ." ". subtotal ." ". tax ." ". total ." ". payment ." ". express ." ". sales_final ." ". order_button ." ". policy .";
-  padding-bottom: 10px;
+  background: #FAFAFA;
+  grid-area: sidebar;
 }
 
 .order_sum {
@@ -589,7 +578,6 @@ a {
 
 .info_inner {
   display: grid;
-  height: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid: "info_1 info_2 info_3 info_4 info_5";
@@ -645,7 +633,6 @@ footer {
 .footer {
   display: grid;
   text-align: center;
-  height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "copyrights terms language";
@@ -665,7 +652,6 @@ footer {
 
 .save {
   display: grid;
-  height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
   grid-template-areas: "save_later" "song_3" "song_4" "song_5" "song_5_empty";
@@ -718,7 +704,6 @@ footer {
 
 .secondMain {
   display: grid;
-  height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "save";
@@ -737,7 +722,7 @@ footer {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 3fr 3fr 1fr 0.5fr;
   grid-template-areas: "nav nav nav" "my_cart my_cart sidebar" "save save sidebar" "info info info" "footer footer footer";
 }
 
