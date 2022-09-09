@@ -7,10 +7,19 @@ footer {
 .footer {
     display: grid;
     text-align: center;
-    height: 100%;
+    height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
     "copyrights terms language";
 }
 
+.copyrights {
+    grid-area: copyrights;
+}
+.terms {
+    grid-area: terms;
+}
+.language {
+    grid-area: language;
+}

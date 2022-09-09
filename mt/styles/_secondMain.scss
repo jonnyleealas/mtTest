@@ -1,7 +1,13 @@
 
+@import './save';
+
 .secondMain {
-    background: rgb(187, 8, 8);
-    grid-area: secondMain;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "save";
 }
 
 

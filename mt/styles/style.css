@@ -201,7 +201,7 @@ nav {
 
 .nav_inner {
   display: grid;
-  height: 100%;
+  height: 30px;
   margin: auto;
   grid-template-columns: 2.5fr 0.8fr 0.8fr 0.5fr 0.8fr 0.4fr 0.8fr 3.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
   grid-template-rows: 1fr;
@@ -278,6 +278,7 @@ nav {
   grid-template-columns: 1fr;
   grid-template-rows: 0.57fr 1fr 1fr 1fr;
   grid-template-areas: "my_cart_h1" "song_1" "song_2" "continue";
+  grid-area: my_cart;
 }
 
 .my_cart_h1 {
@@ -338,6 +339,7 @@ nav {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
   grid-template-areas: "save_later" "song_3" "song_4" "song_5" "song_5_empty";
+  grid-area: save;
 }
 
 .save_later {
@@ -386,16 +388,125 @@ nav {
 
 main {
   display: grid;
-  height: 100%;
+  height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "my_cart" "save";
   grid-area: main;
 }
 
-.secondMain {
-  background: rgb(187, 8, 8);
-  grid-area: secondMain;
+.my_cart {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.57fr 1fr 1fr 1fr;
+  grid-template-areas: "my_cart_h1" "song_1" "song_2" "continue";
+  grid-area: my_cart;
+}
+
+.my_cart_h1 {
+  grid-area: my_cart_h1;
+}
+
+.song_1 {
+  grid-area: song_1;
+}
+
+.song_1_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "song_1_img mt_logo credits";
+}
+
+.song_1_img {
+  grid-area: song_1_img;
+}
+
+.mt_logo {
+  grid-area: mt_logo;
+}
+
+.credits {
+  grid-area: credits;
+}
+
+.song_2 {
+  grid-area: song_2;
+}
+
+.song_2_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "song_2_img chart credits2";
+}
+
+.song_2_img {
+  grid-area: song_2_img;
+}
+
+.chart {
+  grid-area: chart;
+}
+
+.continue {
+  grid-area: continue;
+}
+
+.save {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
+  grid-template-areas: "save_later" "song_3" "song_4" "song_5" "song_5_empty";
+  grid-area: save;
+}
+
+.save_later {
+  grid-area: save_later;
+}
+
+.song_3 {
+  grid-area: song_3;
+}
+
+.song_3_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "song_3_img mt_l add_cart";
+}
+
+.song_4 {
+  grid-area: song_4;
+}
+
+.song_4_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "song_4_img mt_l4 add_cart4";
+}
+
+.song_5 {
+  grid-area: song_5;
+}
+
+.song_5_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "song_5_img mt_l5 add_cart5";
+}
+
+.song_5_empty {
+  grid-area: song_5;
 }
 
 .sidebar {
@@ -405,7 +516,7 @@ main {
 
 .sidebar_inner {
   display: grid;
-  height: 100%;
+  height: auto;
   grid-template-columns: 0.3fr 1fr 0.2fr;
   grid-template-rows: 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f;
   grid-template-areas: ". . ." ". order_sum ." ". credit_acc ." ". credits_req ." ". promo_code ." ". subtotal ." ". tax ." ". total ." ". payment ." ". express ." ". sales_final ." ". order_button ." ". policy .";
@@ -534,10 +645,83 @@ footer {
 .footer {
   display: grid;
   text-align: center;
-  height: 100%;
+  height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "copyrights terms language";
+}
+
+.copyrights {
+  grid-area: copyrights;
+}
+
+.terms {
+  grid-area: terms;
+}
+
+.language {
+  grid-area: language;
+}
+
+.save {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
+  grid-template-areas: "save_later" "song_3" "song_4" "song_5" "song_5_empty";
+  grid-area: save;
+}
+
+.save_later {
+  grid-area: save_later;
+}
+
+.song_3 {
+  grid-area: song_3;
+}
+
+.song_3_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "song_3_img mt_l add_cart";
+}
+
+.song_4 {
+  grid-area: song_4;
+}
+
+.song_4_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "song_4_img mt_l4 add_cart4";
+}
+
+.song_5 {
+  grid-area: song_5;
+}
+
+.song_5_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "song_5_img mt_l5 add_cart5";
+}
+
+.song_5_empty {
+  grid-area: song_5;
+}
+
+.secondMain {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "save";
 }
 
 * {
@@ -549,65 +733,19 @@ footer {
   font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-main {
-  min-height: 100vh;
-}
-
 .container {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.4fr 5fr 2fr 0.3fr;
-  grid-template-areas: "nav nav nav" "main main sidebar" "info info info" "footer footer footer";
-  font-family: "Lato";
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "nav nav nav" "my_cart my_cart sidebar" "save save sidebar" "info info info" "footer footer footer";
 }
 
 @media only screen and (max-width: 550px) {
   .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 1fr 2fr 3fr 0.8fr;
-    grid-template-areas: "nav" "main" "sidebar" "info" "footer";
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "nav" "my_cart" "sidebar" "save" "info" "footer";
   }
-  footer {
-    grid-area: footer;
-  }
-}
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
 }/*# sourceMappingURL=style.css.map */

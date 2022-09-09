@@ -4,12 +4,12 @@
     height: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: .57fr 1fr 1fr 1fr;
-    // grid-template-rows: 1fr 1fr;
     grid-template-areas:
         "my_cart_h1"
         "song_1"
         "song_2"
         "continue";
+        grid-area: my_cart;
 }
 
 .my_cart_h1 {
