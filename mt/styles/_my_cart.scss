@@ -1,0 +1,70 @@
+
+.my_cart {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: .57fr 1fr 1fr 1fr;
+    // grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "my_cart_h1"
+        "song_1"
+        "song_2"
+        "continue";
+}
+
+.my_cart_h1 {
+    grid-area: my_cart_h1;
+}
+
+.song_1 {
+    grid-area: song_1;
+}
+
+
+.song_1_inner {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "song_1_img mt_logo credits";
+}
+
+.song_1_img {
+    grid-area: song_1_img;
+}
+
+.mt_logo {
+    grid-area: mt_logo;
+}
+
+.credits {
+    grid-area: credits;
+}
+
+.song_2 {
+    grid-area: song_2;
+}
+
+.song_2_inner {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "song_2_img chart credits2";
+}
+
+.song_2_img {
+    grid-area: song_2_img;
+}
+
+.chart {
+    grid-area: chart;
+}
+
+
+.continue {
+    grid-area: continue;
+}
+
