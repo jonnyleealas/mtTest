@@ -750,9 +750,24 @@ footer {
   grid-template-areas: "nav nav nav" "my_cart my_cart sidebar" "save save sidebar" "info info info" "footer footer footer";
 }
 
+button {
+  background: #99d5f2;
+}
+
+.mobile_sticky {
+  position: fixed;
+  bottom: 40;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media only screen and (min-width: 600px) {
   div.mobile_sticky {
     display: none;
+    position: fixed;
+    bottom: 40;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 @media only screen and (max-width: 600px) {
@@ -764,6 +779,9 @@ footer {
     grid-template-areas: "nav" "my_cart" "sidebar" "save" "info" "footer";
   }
 
+}/*# sourceMappingURL=style.css.map */
+
+
 }
 .mobile_sticky {
   position: fixed;
@@ -774,3 +792,4 @@ footer {
 
 }/*#sourceMappingURL=style.css.map*/
  main
+ c6b8a3edadca55054dc8511f451375af2a643039
