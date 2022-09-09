@@ -339,6 +339,7 @@ nav {
   top: calc(50% - 12px);
   color: #43B1E6;
   grid-area: continue;
+  margin-top: 30px;
 }
 
 .save {
@@ -465,6 +466,7 @@ nav {
   top: calc(50% - 12px);
   color: #43B1E6;
   grid-area: continue;
+  margin-top: 30px;
 }
 
 .save {
@@ -748,7 +750,12 @@ footer {
   grid-template-areas: "nav nav nav" "my_cart my_cart sidebar" "save save sidebar" "info info info" "footer footer footer";
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (min-width: 600px) {
+  div.mobile_sticky {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
   .container {
     display: grid;
     height: 100vh;
@@ -756,4 +763,14 @@ footer {
     grid-template-rows: 0.5fr 1fr 1fr 1fr 0.8fr 0.5fr;
     grid-template-areas: "nav" "my_cart" "sidebar" "save" "info" "footer";
   }
+
+}
+.mobile_sticky {
+  position: fixed;
+  bottom: 40;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=style.css.map */
+
 }/*#sourceMappingURL=style.css.map*/
+ main
