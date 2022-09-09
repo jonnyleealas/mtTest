@@ -218,6 +218,10 @@ footer {
   list-style-type: none;
 }
 
+main {
+  min-height: 100vh;
+}
+
 .container {
   display: grid;
   height: 100vh;
