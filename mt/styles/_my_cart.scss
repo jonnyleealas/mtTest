@@ -3,13 +3,15 @@
     display: grid;
  
     grid-template-columns: 1fr;
-    grid-template-rows: .57fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr 2fr 2fr 2fr;
     grid-template-areas:
         "my_cart_h1"
         "song_1"
         "song_2"
         "continue";
         grid-area: my_cart;
+        
+
 }
 
 .my_cart_h1 {
@@ -27,7 +29,9 @@
     grid-template-areas:
     "song_1_img mt_logo credits";
     grid-area: song_1;
-    padding: 21px;
+    border-bottom: 1px solid #DADADA;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 
@@ -51,7 +55,10 @@
     grid-template-areas:
         "song_2_img chart credits2";
     grid-area: song_2;
-    padding: 21px;
+    border-bottom: 1px solid #DADADA;
+    margin-top: 20px;
+    margin-left: 20px;
+    
 }
 
 
@@ -65,6 +72,15 @@
 
 
 .continue a {
+    position: absolute;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 145px;
+    height: 24px;
+    left: 24px;
+    top: calc(50% - 24px/2);
     color: #43B1E6;
     grid-area: continue;
 }

@@ -271,7 +271,7 @@ nav {
 .my_cart {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.57fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 2fr 2fr 2fr;
   grid-template-areas: "my_cart_h1" "song_1" "song_2" "continue";
   grid-area: my_cart;
 }
@@ -290,7 +290,9 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_1_img mt_logo credits";
   grid-area: song_1;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .song_1_img {
@@ -312,7 +314,9 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_2_img chart credits2";
   grid-area: song_2;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .song_2_img {
@@ -324,6 +328,15 @@ nav {
 }
 
 .continue a {
+  position: absolute;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 145px;
+  height: 24px;
+  left: 24px;
+  top: calc(50% - 12px);
   color: #43B1E6;
   grid-area: continue;
 }
@@ -348,7 +361,9 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_3_img mt_l add_cart";
   grid-area: song_3;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .song_4 {
@@ -358,7 +373,9 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_4_img mt_l4 add_cart4";
   grid-area: song_4;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 .song_5 {
@@ -368,7 +385,9 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_5_img mt_l5 add_cart5";
   grid-area: song_5;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 60;
+  margin-left: 20px;
 }
 
 .song_5_empty {
@@ -386,7 +405,7 @@ main {
 .my_cart {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.57fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 2fr 2fr 2fr;
   grid-template-areas: "my_cart_h1" "song_1" "song_2" "continue";
   grid-area: my_cart;
 }
@@ -405,7 +424,9 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_1_img mt_logo credits";
   grid-area: song_1;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .song_1_img {
@@ -427,7 +448,9 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_2_img chart credits2";
   grid-area: song_2;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .song_2_img {
@@ -439,6 +462,15 @@ main {
 }
 
 .continue a {
+  position: absolute;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 145px;
+  height: 24px;
+  left: 24px;
+  top: calc(50% - 12px);
   color: #43B1E6;
   grid-area: continue;
 }
@@ -463,7 +495,9 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_3_img mt_l add_cart";
   grid-area: song_3;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .song_4 {
@@ -473,7 +507,9 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_4_img mt_l4 add_cart4";
   grid-area: song_4;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 .song_5 {
@@ -483,7 +519,9 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_5_img mt_l5 add_cart5";
   grid-area: song_5;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 60;
+  margin-left: 20px;
 }
 
 .song_5_empty {
@@ -655,7 +693,9 @@ footer {
   grid-template-rows: 1fr;
   grid-template-areas: "song_3_img mt_l add_cart";
   grid-area: song_3;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .song_4 {
@@ -665,7 +705,9 @@ footer {
   grid-template-rows: 1fr;
   grid-template-areas: "song_4_img mt_l4 add_cart4";
   grid-area: song_4;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 .song_5 {
@@ -675,7 +717,9 @@ footer {
   grid-template-rows: 1fr;
   grid-template-areas: "song_5_img mt_l5 add_cart5";
   grid-area: song_5;
-  padding: 21px;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 60;
+  margin-left: 20px;
 }
 
 .song_5_empty {
