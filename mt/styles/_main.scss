@@ -20,12 +20,10 @@ main {
 }
 
 .my_cart_h1 {
-    background: E5E5E5;
     grid-area: my_cart_h1;
 }
 
 .song_1 {
-    // background:rgb(13, 170, 52);
     grid-area: song_1;
 }
 
@@ -40,22 +38,18 @@ main {
 }
 
 .song_1_img {
-    // background: rgb(134, 81, 81);
     grid-area: song_1_img;
 }
 
 .mt_logo {
-    // background: rgb(152, 35, 35);
     grid-area: mt_logo;
 }
 
 .credits {
-    // background: rgb(179, 104, 104);
     grid-area: credits;
 }
 
 .song_2 {
-    // background: rgb(170, 13, 13);
     grid-area: song_2;
 }
 
@@ -69,32 +63,25 @@ main {
 }
 
 .song_2_img {
-    // background: rgb(81, 87, 134);
     grid-area: song_2_img;
 }
 
 .chart {
-    // background: rgb(72, 17, 17);
     grid-area: chart;
 }
 
 
 .continue {
-    // background: rgb(138, 192, 138);
     grid-area: continue;
 }
 
 // This is the second half of the main card that holds 3 songs
-
-
 .save_later {
-    // background: green;
+ 
     grid-area: save_later;
 }
 
-// song 3
 .song_3 {
-    // background: lightblue;
     grid-area: song_3;
 }
 
@@ -107,21 +94,7 @@ main {
         "song_3_img mt_l add_cart";
 }
 
-// .song_3_img {
-//     background: purple;
-// }
-
-// .mt_l {
-//     background: rgb(143, 106, 143);
-// }
-
-// .add_cart {
-//     background: rgb(97, 75, 33);
-// }
-
-// song 4
 .song_4 {
-    // background: lightblue;
     grid-area: song_4;
 }
 
@@ -134,28 +107,7 @@ main {
         "song_4_img mt_l4 add_cart4";
 }
 
-.song_4_img {
-    // background: purple;
-}
-
-// .mt_l4 {
-//     background: rgb(143, 106, 143);
-// }
-
-// .add_cart4 {
-//     background: rgb(97, 75, 33);
-// }
-
-
-
-
-
-
-
-// song 5
-
 .song_5 {
-    // background: lightblue;
     grid-area: song_5;
 }
 
@@ -166,22 +118,8 @@ main {
     grid-template-rows: 1fr;
     grid-template-areas:
         "song_5_img mt_l5 add_cart5";
-}
-
-// .song_5_img {
-//     background: purple;
-// }
-
-// .mt_l5 {
-//     background: rgb(143, 106, 143);
-// }
-
-// .add_cart5 {
-//     background: rgb(97, 75, 33);
-// }
-
+    }
 
 .song_5_empty {
-    background: yellowgreen;
     grid-area: song_5;
 }

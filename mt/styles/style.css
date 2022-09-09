@@ -285,7 +285,6 @@ main {
 }
 
 .my_cart_h1 {
-  background: E5E5E5;
   grid-area: my_cart_h1;
 }
 
@@ -378,7 +377,6 @@ main {
 }
 
 .song_5_empty {
-  background: yellowgreen;
   grid-area: song_5;
 }
 
