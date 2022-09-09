@@ -1,7 +1,6 @@
-@import './dropdowns/drop_down';
+@import './drop_down';
 @include drop_down(products);
-
-
+@include songs(songs);
 nav {
     grid-area: nav;
     padding: 20px 10px 10px 10px;
