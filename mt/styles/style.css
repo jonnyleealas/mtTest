@@ -18,7 +18,7 @@
 }
 
 .dropdown ul li a:hover {
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .dropdown ul li ul {
@@ -44,7 +44,7 @@
 .dropdown ul li ul li a:hover {
   background: #FAFAFA;
   border-radius: 4px;
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .songs {
@@ -67,7 +67,7 @@
 }
 
 .songs ul li a:hover {
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .songs ul li ul {
@@ -93,7 +93,7 @@
 .songs ul li ul li a:hover {
   background: #FAFAFA;
   border-radius: 4px;
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .sounds {
@@ -116,7 +116,7 @@
 }
 
 .sounds ul li a:hover {
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .sounds ul li ul {
@@ -142,7 +142,7 @@
 .sounds ul li ul li a:hover {
   background: #FAFAFA;
   border-radius: 4px;
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .more {
@@ -165,7 +165,7 @@
 }
 
 .more ul li a:hover {
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .more ul li ul {
@@ -191,7 +191,7 @@
 .more ul li ul li a:hover {
   background: #FAFAFA;
   border-radius: 4px;
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 nav {
@@ -227,7 +227,7 @@ nav {
 }
 
 .pricing a:hover {
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .more {
@@ -236,7 +236,7 @@ nav {
 
 .covid {
   grid-area: covid;
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .account {
@@ -244,7 +244,7 @@ nav {
 }
 
 .account a:hover {
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .cart {
@@ -252,7 +252,7 @@ nav {
 }
 
 .cart a:hover {
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .support {
@@ -260,7 +260,7 @@ nav {
 }
 
 .support a:hover {
-  color: rgb(90, 187, 243);
+  color: #43B1E6;
 }
 
 .help_center {
@@ -317,7 +317,8 @@ nav {
   grid-area: chart;
 }
 
-.continue {
+.continue a {
+  color: #43B1E6;
   grid-area: continue;
 }
 
@@ -422,7 +423,8 @@ main {
   grid-area: chart;
 }
 
-.continue {
+.continue a {
+  color: #43B1E6;
   grid-area: continue;
 }
 
