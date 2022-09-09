@@ -1,0 +1,51 @@
+@mixin drop_down($dropdown){
+    .dropdown {
+        grid-area: $dropdown;
+    }
+    
+    .dropdown ul {
+        float: left;
+    }
+    
+    .dropdown ul li {
+        float: left;
+        list-style: none;
+        position: relative;
+    
+    }
+    
+    .dropdown ul li a {
+        display: block;
+        font-size: 16px;
+    
+        
+    }
+    .dropdown ul li ul{
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        border: 2px solid #dadada;
+        overflow: hidden;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        border-radius:  5px 5px 5px 5px;
+        
+    }
+    
+    .dropdown ul li:hover ul{
+        display: block;
+       
+        
+    }
+    .dropdown ul li ul li a{
+        width: 241px;
+       padding: 10px 14px;
+       
+    }
+    .dropdown ul li ul li a:hover {
+        background: #FAFAFA;
+        border-radius: 4px;
+        color: rgb(90, 187, 243);
+        
+     }
+}
