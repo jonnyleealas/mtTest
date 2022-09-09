@@ -1,33 +1,32 @@
-
 .sidebar {
     background: #FAFAFA;
     grid-area: sidebar;
-    
+
 }
 
 .sidebar_inner {
     display: grid;
     height: 100%;
-    grid-template-columns:  .3fr 1fr .2fr;
-    grid-template-rows: 
-    1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f;
-    grid-template-areas: 
-    ". . ."
-    ". order_sum ."
-    ". credit_acc ."
-    ". credits_req ."
-    ". promo_code ."
-    ". subtotal ."
-    ". tax ."
-    ". total ."
-    ". payment ."
-    ". express ."
-    ". sales_final ."
-    ". order_button ."
-    ". policy .";
-   
+    grid-template-columns: .3fr 1fr .2fr;
+    grid-template-rows:
+        1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f;
+    grid-template-areas:
+        ". . ."
+        ". order_sum ."
+        ". credit_acc ."
+        ". credits_req ."
+        ". promo_code ."
+        ". subtotal ."
+        ". tax ."
+        ". total ."
+        ". payment ."
+        ". express ."
+        ". sales_final ."
+        ". order_button ."
+        ". policy .";
+
     padding-bottom: 10px;
-    
+
 }
 
 .order_sum {
@@ -35,46 +34,45 @@
 }
 
 .credit_acc {
-    // background: greenyellow;
     grid-area: credit_acc;
 }
+
 .credits_req {
-    // background: rgb(75, 81, 65);
     grid-area: credits_req;
 }
+
 .promo_code {
-    // background: rgb(63, 66, 59);
     grid-area: promo_code;
 }
+
 .subtotal {
-    // background: rgb(192, 225, 141);
     grid-area: subtotal;
 }
+
 .tax {
-    // background: rgb(50, 161, 107);
     grid-area: tax;
 }
+
 .total {
-    // background: rgb(47, 255, 99);
     grid-area: total;
 }
+
 .payment {
-    // background: greenyellow;
     grid-area: payment;
 }
+
 .express {
-    // background: rgb(47, 186, 255);
     grid-area: express;
 }
+
 .sales_final {
-    // background: rgb(47, 255, 241);
     grid-area: sales_final;
 }
+
 .order_button {
-    // background: rgb(47, 168, 255);
     grid-area: order_button;
 }
+
 .policy {
-    // background: rgb(47, 227, 255);
     grid-area: policy;
 }
