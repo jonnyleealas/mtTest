@@ -14,7 +14,7 @@
 }
 
 .save_later {
- 
+    padding: 21px;
     grid-area: save_later;
 }
 
@@ -26,6 +26,7 @@
     grid-template-areas:
         "song_3_img mt_l add_cart";
     grid-area: song_3;
+    padding: 21px;
 }
 
 
@@ -37,6 +38,7 @@
     grid-template-areas:
         "song_4_img mt_l4 add_cart4";
     grid-area: song_4;
+    padding: 21px;
 }
 
 
@@ -48,6 +50,7 @@
     grid-template-areas:
         "song_5_img mt_l5 add_cart5";
     grid-area: song_5;
+    padding: 21px;
 }
 
 

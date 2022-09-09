@@ -202,6 +202,7 @@ nav {
   grid-template-areas: "nav_logo products songs sounds pricing more covid . account cart support help_center";
   padding: 15px 10px 10px 10px;
   grid-area: nav;
+  border: 1px solid #DADADA;
 }
 
 .nav_logo {
@@ -276,6 +277,9 @@ nav {
 }
 
 .my_cart_h1 {
+  width: 121px;
+  height: 24px;
+  padding: 21px;
   grid-area: my_cart_h1;
 }
 
@@ -286,6 +290,7 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_1_img mt_logo credits";
   grid-area: song_1;
+  padding: 21px;
 }
 
 .song_1_img {
@@ -307,6 +312,7 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_2_img chart credits2";
   grid-area: song_2;
+  padding: 21px;
 }
 
 .song_2_img {
@@ -331,6 +337,7 @@ nav {
 }
 
 .save_later {
+  padding: 21px;
   grid-area: save_later;
 }
 
@@ -341,6 +348,7 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_3_img mt_l add_cart";
   grid-area: song_3;
+  padding: 21px;
 }
 
 .song_4 {
@@ -350,6 +358,7 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_4_img mt_l4 add_cart4";
   grid-area: song_4;
+  padding: 21px;
 }
 
 .song_5 {
@@ -359,6 +368,7 @@ nav {
   grid-template-rows: 1fr;
   grid-template-areas: "song_5_img mt_l5 add_cart5";
   grid-area: song_5;
+  padding: 21px;
 }
 
 .song_5_empty {
@@ -382,6 +392,9 @@ main {
 }
 
 .my_cart_h1 {
+  width: 121px;
+  height: 24px;
+  padding: 21px;
   grid-area: my_cart_h1;
 }
 
@@ -392,6 +405,7 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_1_img mt_logo credits";
   grid-area: song_1;
+  padding: 21px;
 }
 
 .song_1_img {
@@ -413,6 +427,7 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_2_img chart credits2";
   grid-area: song_2;
+  padding: 21px;
 }
 
 .song_2_img {
@@ -437,6 +452,7 @@ main {
 }
 
 .save_later {
+  padding: 21px;
   grid-area: save_later;
 }
 
@@ -447,6 +463,7 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_3_img mt_l add_cart";
   grid-area: song_3;
+  padding: 21px;
 }
 
 .song_4 {
@@ -456,6 +473,7 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_4_img mt_l4 add_cart4";
   grid-area: song_4;
+  padding: 21px;
 }
 
 .song_5 {
@@ -465,6 +483,7 @@ main {
   grid-template-rows: 1fr;
   grid-template-areas: "song_5_img mt_l5 add_cart5";
   grid-area: song_5;
+  padding: 21px;
 }
 
 .song_5_empty {
@@ -625,6 +644,7 @@ footer {
 }
 
 .save_later {
+  padding: 21px;
   grid-area: save_later;
 }
 
@@ -635,6 +655,7 @@ footer {
   grid-template-rows: 1fr;
   grid-template-areas: "song_3_img mt_l add_cart";
   grid-area: song_3;
+  padding: 21px;
 }
 
 .song_4 {
@@ -644,6 +665,7 @@ footer {
   grid-template-rows: 1fr;
   grid-template-areas: "song_4_img mt_l4 add_cart4";
   grid-area: song_4;
+  padding: 21px;
 }
 
 .song_5 {
@@ -653,6 +675,7 @@ footer {
   grid-template-rows: 1fr;
   grid-template-areas: "song_5_img mt_l5 add_cart5";
   grid-area: song_5;
+  padding: 21px;
 }
 
 .song_5_empty {

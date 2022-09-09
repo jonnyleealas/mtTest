@@ -13,6 +13,9 @@
 }
 
 .my_cart_h1 {
+    width: 121px;
+    height: 24px;
+    padding: 21px;
     grid-area: my_cart_h1;
 }
 
@@ -24,6 +27,7 @@
     grid-template-areas:
     "song_1_img mt_logo credits";
     grid-area: song_1;
+    padding: 21px;
 }
 
 
@@ -47,6 +51,7 @@
     grid-template-areas:
         "song_2_img chart credits2";
     grid-area: song_2;
+    padding: 21px;
 }
 
 
