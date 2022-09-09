@@ -34,13 +34,32 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 
-    .2fr 1fr 2fr 3fr 3fr .8fr;
+    .2fr 1fr 2fr 3fr .8fr;
     grid-template-areas: 
     "nav"
     "main"
-    "sidebar"
-    "secondMain"
+    "sidebar" 
     "info"
     "footer"
+  }
+
+  nav {
+    grid-area: nav;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  .info {
+    grid-area: info;
+  }
+
+  footer {
+    grid-area: footer;
   }
 }
