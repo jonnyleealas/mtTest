@@ -395,14 +395,6 @@ nav {
   grid-area: song_5;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "my_cart" "save";
-  grid-area: main;
-}
-
 .my_cart {
   display: grid;
   grid-template-columns: 1fr;
@@ -771,6 +763,7 @@ footer {
     grid-template-rows: 0.5fr 1fr 1fr 1fr 0.8fr 0.5fr;
     grid-template-areas: "nav" "my_cart" "sidebar" "save" "info" "footer";
   }
+
 }
 .mobile_sticky {
   position: fixed;
@@ -778,3 +771,6 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */
+
+}/*#sourceMappingURL=style.css.map*/
+ main
