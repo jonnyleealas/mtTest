@@ -561,10 +561,14 @@ main {
 }
 
 .info {
-  background: #282828;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid: "info_1 info_2 info_3 info_4 info_5";
   grid-area: info;
+  background: #282828;
   color: #FAFAFA;
-  padding: 40px 20px;
+  padding: 25px 25px;
 }
 
 .info a:hover {
@@ -574,13 +578,6 @@ main {
 a {
   vertical-align: left;
   color: #919191;
-}
-
-.info_inner {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid: "info_1 info_2 info_3 info_4 info_5";
 }
 
 .info_1 {
