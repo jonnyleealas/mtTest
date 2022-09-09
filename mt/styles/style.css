@@ -456,6 +456,10 @@ main {
   padding: 40px 20px;
 }
 
+.info a:hover {
+  color: #FAFAFA;
+}
+
 a {
   vertical-align: left;
   color: #919191;
