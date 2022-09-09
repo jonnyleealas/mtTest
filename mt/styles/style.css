@@ -138,6 +138,12 @@ main {
   background: #282828;
   grid-area: info;
   color: #FAFAFA;
+  padding: 40px 200px;
+}
+
+a {
+  vertical-align: left;
+  color: #919191;
 }
 
 .info_inner {
@@ -149,6 +155,7 @@ main {
 }
 
 .info_1 {
+  align-content: center;
   grid-area: info_1;
 }
 
