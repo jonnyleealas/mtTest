@@ -195,16 +195,13 @@
 }
 
 nav {
-  grid-area: nav;
-  padding: 20px 10px 10px 10px;
-}
-
-.nav_inner {
   display: grid;
+  text-align: center;
   grid-template-columns: 2.5fr 0.8fr 0.8fr 0.5fr 0.8fr 0.4fr 0.8fr 3.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
   grid-template-rows: 1fr;
   grid-template-areas: "nav_logo products songs sounds pricing more covid . account cart support help_center";
-  text-align: center;
+  padding: 15px 10px 10px 10px;
+  grid-area: nav;
 }
 
 .nav_logo {
@@ -283,15 +280,12 @@ nav {
 }
 
 .song_1 {
-  grid-area: song_1;
-}
-
-.song_1_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_1_img mt_logo credits";
+  grid-area: song_1;
 }
 
 .song_1_img {
@@ -307,15 +301,12 @@ nav {
 }
 
 .song_2 {
-  grid-area: song_2;
-}
-
-.song_2_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_2_img chart credits2";
+  grid-area: song_2;
 }
 
 .song_2_img {
@@ -343,39 +334,30 @@ nav {
 }
 
 .song_3 {
-  grid-area: song_3;
-}
-
-.song_3_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_3_img mt_l add_cart";
+  grid-area: song_3;
 }
 
 .song_4 {
-  grid-area: song_4;
-}
-
-.song_4_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_4_img mt_l4 add_cart4";
+  grid-area: song_4;
 }
 
 .song_5 {
-  grid-area: song_5;
-}
-
-.song_5_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_5_img mt_l5 add_cart5";
+  grid-area: song_5;
 }
 
 .song_5_empty {
@@ -403,15 +385,12 @@ main {
 }
 
 .song_1 {
-  grid-area: song_1;
-}
-
-.song_1_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_1_img mt_logo credits";
+  grid-area: song_1;
 }
 
 .song_1_img {
@@ -427,15 +406,12 @@ main {
 }
 
 .song_2 {
-  grid-area: song_2;
-}
-
-.song_2_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_2_img chart credits2";
+  grid-area: song_2;
 }
 
 .song_2_img {
@@ -463,39 +439,30 @@ main {
 }
 
 .song_3 {
-  grid-area: song_3;
-}
-
-.song_3_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_3_img mt_l add_cart";
+  grid-area: song_3;
 }
 
 .song_4 {
-  grid-area: song_4;
-}
-
-.song_4_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_4_img mt_l4 add_cart4";
+  grid-area: song_4;
 }
 
 .song_5 {
-  grid-area: song_5;
-}
-
-.song_5_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_5_img mt_l5 add_cart5";
+  grid-area: song_5;
 }
 
 .song_5_empty {
@@ -660,39 +627,30 @@ footer {
 }
 
 .song_3 {
-  grid-area: song_3;
-}
-
-.song_3_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_3_img mt_l add_cart";
+  grid-area: song_3;
 }
 
 .song_4 {
-  grid-area: song_4;
-}
-
-.song_4_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_4_img mt_l4 add_cart4";
+  grid-area: song_4;
 }
 
 .song_5 {
-  grid-area: song_5;
-}
-
-.song_5_inner {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "song_5_img mt_l5 add_cart5";
+  grid-area: song_5;
 }
 
 .song_5_empty {
@@ -719,15 +677,16 @@ footer {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 3fr 3fr 1fr 0.5fr;
+  grid-template-rows: 0.5fr 3fr 3fr 0.5fr 0.5fr;
   grid-template-areas: "nav nav nav" "my_cart my_cart sidebar" "save save sidebar" "info info info" "footer footer footer";
 }
 
 @media only screen and (max-width: 550px) {
   .container {
     display: grid;
+    height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.8fr 0.5fr;
     grid-template-areas: "nav" "my_cart" "sidebar" "save" "info" "footer";
   }
 }/*# sourceMappingURL=style.css.map */

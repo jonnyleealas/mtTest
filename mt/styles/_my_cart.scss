@@ -17,18 +17,15 @@
 }
 
 .song_1 {
-    grid-area: song_1;
-}
-
-
-.song_1_inner {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-        "song_1_img mt_logo credits";
+    "song_1_img mt_logo credits";
+    grid-area: song_1;
 }
+
 
 .song_1_img {
     grid-area: song_1_img;
@@ -43,17 +40,15 @@
 }
 
 .song_2 {
-    grid-area: song_2;
-}
-
-.song_2_inner {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
         "song_2_img chart credits2";
+    grid-area: song_2;
 }
+
 
 .song_2_img {
     grid-area: song_2_img;

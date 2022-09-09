@@ -19,43 +19,37 @@
 }
 
 .song_3 {
-    grid-area: song_3;
-}
-
-.song_3_inner {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
         "song_3_img mt_l add_cart";
+    grid-area: song_3;
 }
+
 
 .song_4 {
-    grid-area: song_4;
-}
-
-.song_4_inner {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
         "song_4_img mt_l4 add_cart4";
+    grid-area: song_4;
 }
+
 
 .song_5 {
-    grid-area: song_5;
-}
-
-.song_5_inner {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
         "song_5_img mt_l5 add_cart5";
-    }
+    grid-area: song_5;
+}
+
 
 .song_5_empty {
     grid-area: song_5;

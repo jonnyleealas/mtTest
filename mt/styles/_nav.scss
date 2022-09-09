@@ -4,21 +4,16 @@
 @include sounds(sounds);
 @include more(more);
 nav {
-    grid-area: nav;
-    padding: 20px 10px 10px 10px;
-
-}
-
-.nav_inner {
     display: grid;
-    
-    
+    text-align: center;
     grid-template-columns: 2.5fr .8fr .8fr .5fr .8fr .4fr .8fr 3.8fr .8fr .8fr .8fr .8fr;
     grid-template-rows:
-        1fr;
+    1fr;
     grid-template-areas:
-        "nav_logo products songs sounds pricing more covid . account cart support help_center";
-    text-align: center;
+    "nav_logo products songs sounds pricing more covid . account cart support help_center";
+    padding: 15px 10px 10px 10px;
+    grid-area: nav;
+
 }
 
 .nav_logo {

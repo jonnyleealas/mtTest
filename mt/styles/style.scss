@@ -22,7 +22,7 @@
     grid-template-columns: 
     1fr 1fr 1fr;
     grid-template-rows: 
-    .5fr 3fr 3fr 1fr .5fr;
+    .5fr 3fr 3fr .5fr .5fr;
     grid-template-areas:
         "nav nav nav"
         "my_cart my_cart sidebar"
@@ -34,16 +34,16 @@
 @media only screen and (max-width:550px){
   .container {
     display: grid;
+    height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1fr 1fr 1fr .8fr .5fr;
     grid-template-areas:
     "nav" 
     "my_cart"
     "sidebar"
     "save"
     "info"
-    "footer"
-    ;
+    "footer";
   }
 
 }
