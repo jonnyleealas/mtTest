@@ -134,6 +134,63 @@ main {
   grid-area: sidebar;
 }
 
+.sidebar_inner {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 0.3fr 1fr 0.2fr;
+  grid-template-rows: 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f;
+  grid-template-areas: ". . ." ". order_sum ." ". credit_acc ." ". credits_req ." ". promo_code ." ". subtotal ." ". tax ." ". total ." ". payment ." ". express ." ". sales_final ." ". order_button ." ". policy .";
+  padding-bottom: 10px;
+}
+
+.order_sum {
+  grid-area: order_sum;
+}
+
+.credit_acc {
+  grid-area: credit_acc;
+}
+
+.credits_req {
+  grid-area: credits_req;
+}
+
+.promo_code {
+  grid-area: promo_code;
+}
+
+.subtotal {
+  grid-area: subtotal;
+}
+
+.tax {
+  grid-area: tax;
+}
+
+.total {
+  grid-area: total;
+}
+
+.payment {
+  grid-area: payment;
+}
+
+.express {
+  grid-area: express;
+}
+
+.sales_final {
+  grid-area: sales_final;
+}
+
+.order_button {
+  grid-area: order_button;
+}
+
+.policy {
+  grid-area: policy;
+}
+
 .info {
   background: #282828;
   grid-area: info;
