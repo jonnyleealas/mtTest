@@ -2,6 +2,7 @@ footer {
     background: #171717;
     grid-area: footer;
     color: #919191;
+    padding: 10px;
 }
 
 .footer {
@@ -17,7 +18,12 @@ footer {
     grid-area: copyrights;
 }
 .terms {
+    font-size: 14px;
     grid-area: terms;
+}
+
+.terms a:hover {
+    color: #43B1E6;
 }
 .language {
     grid-area: language;

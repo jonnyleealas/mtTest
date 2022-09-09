@@ -594,7 +594,7 @@ main {
   grid-area: info;
   background: #282828;
   color: #FAFAFA;
-  padding: 25px 25px;
+  padding: 25px 25px 10px;
 }
 
 .info a:hover {
@@ -651,6 +651,7 @@ footer {
   background: #171717;
   grid-area: footer;
   color: #919191;
+  padding: 10px;
 }
 
 .footer {
@@ -666,7 +667,12 @@ footer {
 }
 
 .terms {
+  font-size: 14px;
   grid-area: terms;
+}
+
+.terms a:hover {
+  color: #43B1E6;
 }
 
 .language {
