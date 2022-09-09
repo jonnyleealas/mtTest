@@ -9,7 +9,7 @@ nav {
   margin: auto;
   grid-template-columns: 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 3.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "nav_logo products songs pricing more covid . account cart support sup_in";
+  grid-template-areas: "nav_logo products songs pricing more covid dropdown account cart support sup_in";
   text-align: center;
 }
 
@@ -17,6 +17,54 @@ nav {
   height: 100%;
   margin-top: -6px;
   grid-area: nav_logo;
+}
+
+.dropdown {
+  width: 100%;
+  height: 60px;
+  background: rgb(34, 85, 97);
+  grid-area: dropdown;
+}
+
+.dropdown ul {
+  float: left;
+}
+
+.dropdown ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+.dropdown ul li a {
+  display: block;
+  color: 222;
+  font-size: 14px;
+}
+
+.dropdown ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 2px solid #dadada;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.dropdown ul li:hover ul {
+  display: block;
+}
+
+.dropdown ul li ul li a {
+  width: 241px;
+  padding: 10px 14px;
+}
+
+.dropdown ul li ul li a:hover {
+  background: #FAFAFA;
+  border-radius: 4px;
 }
 
 .products {
