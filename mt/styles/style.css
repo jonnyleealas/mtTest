@@ -189,7 +189,7 @@ nav {
   margin: auto;
   grid-template-columns: 2.5fr 0.8fr 0.8fr 0.5fr 0.8fr 0.4fr 0.8fr 3.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "nav_logo products sounds songs pricing more covid . account cart support sup_in";
+  grid-template-areas: "nav_logo products songs sounds pricing more covid . account cart support sup_in";
   text-align: center;
 }
 
