@@ -339,6 +339,7 @@ nav {
   top: calc(50% - 12px);
   color: #43B1E6;
   grid-area: continue;
+  margin-top: 30px;
 }
 
 .save {
@@ -473,6 +474,7 @@ main {
   top: calc(50% - 12px);
   color: #43B1E6;
   grid-area: continue;
+  margin-top: 30px;
 }
 
 .save {
