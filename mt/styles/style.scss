@@ -31,7 +31,14 @@
         "footer footer footer"; 
 }
 
-@media only screen and (max-width:550px){
+
+@media only screen and (min-width: 600px){
+  div.mobile_sticky {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
   .container {
     display: grid;
     height: 100vh;
@@ -48,22 +55,13 @@
 
 }
 
-// @media only screen and (min-width: 600px){
- 
-
-//   .mobile_sticky {
-//     display: none;
-//   }
-
-  
-// }
-
 .mobile_sticky {
   position: fixed;
-  bottom: 10;
+  bottom: 40;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
+
+
 
 
