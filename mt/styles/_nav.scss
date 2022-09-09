@@ -1,7 +1,6 @@
-
 nav{
-    // background: rgb(228, 109, 109);
     grid-area: nav;
+    padding: 20px 10px 10px 10px;
 
 }
 
@@ -9,7 +8,7 @@ nav{
     display: grid;
     height: 100%;
     grid-template-columns: 
-    .5fr 1fr 1fr .6fr;
+    1fr 1fr 1fr .6fr;
     grid-template-rows: 
     1fr;
     grid-template-areas: 
@@ -20,6 +19,9 @@ nav{
     // background: pink;
     grid-area: nav_logo;
 }
+
+
+
 
 // .drop_down {
 //     background-color: aqua;
