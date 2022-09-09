@@ -155,3 +155,56 @@
      }
 }
 
+
+@mixin more($more){
+    .more {
+        grid-area: $more;
+    }
+    
+    .more ul {
+        float: left;
+    }
+    
+    .more ul li {
+        float: left;
+        list-style: none;
+        position: relative;
+    
+    }
+    
+    .more ul li a {
+        display: block;
+        font-size: 16px;
+    
+        
+    }
+    .more ul li ul{
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        border: 2px solid #dadada;
+        overflow: hidden;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        border-radius:  5px 5px 5px 5px;
+        
+    }
+    
+    .more ul li:hover ul{
+        display: block;
+       
+        
+    }
+    .more ul li ul li a{
+        width: 241px;
+       padding: 10px 14px;
+       
+    }
+    .more ul li ul li a:hover {
+        background: #FAFAFA;
+        border-radius: 4px;
+        color: rgb(90, 187, 243);
+        
+     }
+}
+

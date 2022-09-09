@@ -2,6 +2,7 @@
 @include drop_down(products);
 @include songs(songs);
 @include sounds(sounds);
+@include more(more);
 nav {
     grid-area: nav;
     padding: 20px 10px 10px 10px;
@@ -12,7 +13,7 @@ nav {
     display: grid;
     height: 100%;
     margin: auto;
-    grid-template-columns: 2fr .8fr .8fr .8fr .8fr .8fr .8fr 3.8fr .8fr .8fr .8fr .8fr;
+    grid-template-columns: 2.5fr .8fr .8fr .5fr .8fr .4fr .8fr 3.8fr .8fr .8fr .8fr .8fr;
     grid-template-rows:
         1fr;
     grid-template-areas:
