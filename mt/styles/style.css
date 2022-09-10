@@ -627,29 +627,24 @@ footer {
   grid-template-areas: "nav nav nav" "my_cart my_cart sidebar" "save save sidebar" "info info info" "footer footer footer";
 }
 
-.mobile_sticky {
-  position: fixed;
-  bottom: 40;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 @media only screen and (min-width: 600px) {
   div.mobile_sticky {
     display: none;
-    position: fixed;
-    bottom: 50;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 }
-@media only screen and (min-width: 2000px) {
+@media only screen and (max-width: 550px) {
   .container {
     display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 3fr 3fr 0.5fr 0.5fr;
-    grid-template-areas: "nav nav nav" "my_cart my_cart sidebar" "save save sidebar" "info info info" "footer footer footer";
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.8fr 0.5fr;
+    grid-template-areas: "nav" "my_cart" "sidebar" "save" "info" "footer";
+  }
+  .mobile_sticky {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .continue a {
     position: absolute;
@@ -660,7 +655,7 @@ footer {
     width: 145px;
     height: 24px;
     left: 24px;
-    top: calc(32% - 12px);
+    top: calc(60% - 12px);
     color: #43B1E6;
     grid-area: continue;
     margin-top: 30px;

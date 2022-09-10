@@ -1,0 +1,98 @@
+
+.mobile_sticky {
+  position: fixed;
+  bottom: 40;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Hide sticky if not in mobile
+@media only screen and (min-width: 600px){
+  div.mobile_sticky {
+    display: none;
+    position: fixed;
+    bottom: 50;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+// Iphone 12 Pro
+@media only screen and (max-width: 601px){
+  .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1fr 1fr 1fr .8fr .5fr;
+    grid-template-areas:
+    "nav" 
+    "my_cart"
+    "sidebar"
+    "save"
+    "info"
+    "footer";
+  }
+
+  .continue a {
+    position: absolute;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 145px;
+    height: 24px;
+    left: 24px;
+    top: calc(51% - 24px/2);
+    color: #43B1E6;
+    grid-area: continue;
+    margin-top: 30px;
+}
+
+.mobile_sticky {
+  position: absolute;
+  bottom: 40;
+  left: 26.4%;
+  transform: translate(-50%, -50%);
+}
+}
+
+// 32" monitor
+@media only screen and (min-width: 2000px){
+  .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 
+    1fr 1fr 1fr;
+    grid-template-rows: 
+    .5fr 3fr 3fr .5fr .5fr;
+    grid-template-areas:
+        "nav nav nav"
+        "my_cart my_cart sidebar"
+        "save save sidebar"
+        "info info info"
+        "footer footer footer"; 
+  }
+
+    .continue a {
+      position: absolute;
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 145px;
+      height: 24px;
+      left: 24px;
+      top: calc(32% - 24px/2);
+      color: #43B1E6;
+      grid-area: continue;
+      margin-top: 30px;
+  }
+}
+
+
+
+
+
+
+
