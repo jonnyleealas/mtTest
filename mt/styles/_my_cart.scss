@@ -1,6 +1,5 @@
 .my_cart {
     display: grid;
- 
     grid-template-columns: 1fr;
     grid-template-rows: .5fr 2fr 2fr 2fr;
     grid-template-areas:
@@ -9,8 +8,6 @@
         "song_2"
         "continue";
         grid-area: my_cart;
-        
-
 }
 
 .my_cart_h1 {
@@ -57,7 +54,6 @@
     border-bottom: 1px solid #DADADA;
     margin-top: 20px;
     margin-left: 20px;
-    
 }
 
 .song_2_img {
@@ -82,3 +78,7 @@
     grid-area: continue;
     margin-top: 30px;
 }
+
+.remove {
+    color: #828282!important;
+  }
