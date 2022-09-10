@@ -459,13 +459,13 @@ nav {
 
 .info {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid: "info_1 info_2 info_3 info_4 info_5";
   grid-area: info;
   background: #282828;
   color: #FAFAFA;
-  padding: 25px 25px 10px;
+  padding: 25px 50px;
 }
 
 .info a:hover {
@@ -638,17 +638,31 @@ footer {
   div.mobile_sticky {
     display: none;
     position: fixed;
-    bottom: 40;
+    bottom: 50;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 2000px) {
   .container {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.8fr 0.5fr;
-    grid-template-areas: "nav" "my_cart" "sidebar" "save" "info" "footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 3fr 3fr 0.5fr 0.5fr;
+    grid-template-areas: "nav nav nav" "my_cart my_cart sidebar" "save save sidebar" "info info info" "footer footer footer";
+  }
+  .continue a {
+    position: absolute;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 145px;
+    height: 24px;
+    left: 24px;
+    top: calc(32% - 12px);
+    color: #43B1E6;
+    grid-area: continue;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

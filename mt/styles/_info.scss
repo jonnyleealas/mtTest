@@ -1,13 +1,13 @@
 .info {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid: 
     "info_1 info_2 info_3 info_4 info_5";
     grid-area: info;
     background: #282828;
     color: #FAFAFA;
-    padding:25px 25px 10px;
+    padding: 25px 50px;
 }
 
 .info a:hover {
