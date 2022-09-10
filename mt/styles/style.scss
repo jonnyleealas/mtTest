@@ -6,55 +6,51 @@
 @import './footer';
 @import './secondMain';
 
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   list-style-type: none;
-  font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 .container {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 
+  display: grid;
+  height: 100vh;
+  grid-template-columns:
     1fr 1fr 1fr;
-    grid-template-rows: 
+  grid-template-rows:
     .5fr 3fr 3fr .5fr .5fr;
-    grid-template-areas:
-        "nav nav nav"
-        "my_cart my_cart sidebar"
-        "save save sidebar"
-        "info info info"
-        "footer footer footer"; 
+  grid-template-areas:
+    "nav nav nav"
+    "my_cart my_cart sidebar"
+    "save save sidebar"
+    "info info info"
+    "footer footer footer";
 }
 
-
-
 // Hide Sticky at 600
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
   div.mobile_sticky {
     display: none;
   }
 }
 
-
-
 // 550px and below
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 550px) {
   .container {
     display: grid;
     min-height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: .5fr 1fr 1fr 1fr .8fr .5fr;
     grid-template-areas:
-    "nav" 
-    "my_cart"
-    "sidebar"
-    "save"
-    "info"
-    "footer";
+      "nav"
+      "my_cart"
+      "sidebar"
+      "save"
+      "info"
+      "footer";
   }
 
   .mobile_sticky {
@@ -77,49 +73,38 @@
     color: #43B1E6;
     grid-area: continue;
     margin-top: 30px;
+  }
 }
-}
-
 
 // 32" monitor
-@media only screen and (min-width: 2000px){
+@media only screen and (min-width: 2000px) {
   .container {
     display: grid;
     height: 100vh;
-    grid-template-columns: 
-    1fr 1fr 1fr;
-    grid-template-rows: 
-    .5fr 3fr 3fr .5fr .5fr;
+    grid-template-columns:
+      1fr 1fr 1fr;
+    grid-template-rows:
+      .5fr 3fr 3fr .5fr .5fr;
     grid-template-areas:
-        "nav nav nav"
-        "my_cart my_cart sidebar"
-        "save save sidebar"
-        "info info info"
-        "footer footer footer"; 
+      "nav nav nav"
+      "my_cart my_cart sidebar"
+      "save save sidebar"
+      "info info info"
+      "footer footer footer";
   }
 
-    .continue a {
-      position: absolute;
-      clear: both;
-      display: inline-block;
-      overflow: hidden;
-      white-space: nowrap;
-      width: 145px;
-      height: 24px;
-      left: 24px;
-      top: calc(32% - 24px/2);
-      color: #43B1E6;
-      grid-area: continue;
-      margin-top: 30px;
+  .continue a {
+    position: absolute;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 145px;
+    height: 24px;
+    left: 24px;
+    top: calc(32% - 24px/2);
+    color: #43B1E6;
+    grid-area: continue;
+    margin-top: 30px;
   }
 }
-
-
-
-
-
-
-
-
-
-
