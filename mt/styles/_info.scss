@@ -67,9 +67,14 @@ a {
 
 .social {
     display: grid;
-    grid-template-columns: 1fr .5fr .5fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "social_icons likes follow";
+    "social_icons";
 }
 
+.social_icons {
+    width: 370px;
+    height: 24px;
+    grid-area: social_icons;
+}
