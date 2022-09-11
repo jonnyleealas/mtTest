@@ -550,66 +550,6 @@ footer {
   grid-area: language;
 }
 
-.save {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
-  grid-template-areas: "save_later" "song_3" "song_4" "song_5" "song_5_empty";
-  grid-area: save;
-}
-
-.save_later {
-  padding: 21px;
-  grid-area: save_later;
-}
-
-.song_3 {
-  display: grid;
-  height: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "song_3_img mt_l add_cart";
-  grid-area: song_3;
-  border-bottom: 1px solid #DADADA;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.song_4 {
-  display: grid;
-  height: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "song_4_img mt_l4 add_cart4";
-  grid-area: song_4;
-  border-bottom: 1px solid #DADADA;
-  margin-top: 50px;
-  margin-left: 20px;
-}
-
-.song_5 {
-  display: grid;
-  height: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "song_5_img mt_l5 add_cart5";
-  grid-area: song_5;
-  border-bottom: 1px solid #DADADA;
-  margin-top: 60;
-  margin-left: 20px;
-}
-
-.song_5_empty {
-  grid-area: song_5;
-}
-
-.secondMain {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "save";
-}
-
 * {
   margin: 0;
   padding: 0;
