@@ -554,44 +554,39 @@ footer {
   display: inline;
 }
 
-.fa-pull-margin {
-  margin: 0px;
-}
-
-.fa-rectangle-wide {
-  color: blue;
-  background-color: #fff;
-}
-
 .rectangle {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "fa-thumbs-up like num";
   height: 21px;
   width: 80px;
   border-radius: 2px;
-  padding: 5px 2px 0px 2px;
+  padding: 4px 2px 0px 6px;
   background-color: #456DB0;
+}
+
+.likes_follow {
+  text-align: justify;
 }
 
 .fa-thumbs-up {
   width: 22px;
   height: 22px;
-  text-align: center;
+  text-align: justify;
   grid-area: fa-thumbs-up;
 }
 
 .like {
   color: #fff;
-  text-align: center;
+  text-align: justify;
   font-size: 13px;
   grid-area: like;
 }
 
 .num {
   color: #fff;
-  text-align: center;
+  text-align: justify;
   font-size: 13px;
   grid-area: num;
 }
