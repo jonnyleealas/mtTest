@@ -19,20 +19,16 @@ grid-area: icons;
 }
 
 
-.icons ul li a span .fa-facebook:hover {
+// .icons ul li a span .fa-facebook:hover {
+//   color: #43B1E6;
+// }
+ 
+.icons ul li a Span i:hover {
   color: #43B1E6;
 }
 
-.fa-facebook {
-color: #282828;
-}
-
-
-.fa-twitter {
+.icons ul li a i {
   color: #282828;
-}
+}  
 
-.icons ul li a span .fa-twitter:hover {
-  color: #43B1E6;
-}
 
