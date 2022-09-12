@@ -558,6 +558,11 @@ footer {
   margin: 0px;
 }
 
+.fa-rectangle-wide {
+  color: blue;
+  background-color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
