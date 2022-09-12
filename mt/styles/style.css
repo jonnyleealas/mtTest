@@ -457,6 +457,57 @@ nav {
   grid-area: policy;
 }
 
+.social_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "icons icons like_button";
+  grid-area: social_icons;
+}
+
+.icons {
+  display: inline;
+  grid-area: icons;
+}
+
+.icons ul li {
+  display: inline;
+}
+
+.like_button {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fa-thumbs-up like num";
+  height: 21px;
+  width: 80px;
+  border-radius: 2px;
+  padding: 4px 2px 0px 6px;
+  background-color: #456DB0;
+  grid-area: like_button;
+}
+
+.fa-thumbs-up {
+  width: 22px;
+  height: 22px;
+  text-align: justify;
+  grid-area: fa-thumbs-up;
+}
+
+.like {
+  color: #fff;
+  text-align: justify;
+  font-size: 13px;
+  grid-area: like;
+}
+
+.num {
+  color: #fff;
+  text-align: justify;
+  font-size: 13px;
+  grid-area: num;
+}
+
 .info {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
@@ -508,14 +559,7 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "subscribe" "email_input" "problem" "faq" "social";
-}
-
-.social {
-  display: grid;
-  grid-template-columns: 1fr 0.5fr 0.5fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "social_icons likes follow";
+  grid-template-areas: "subscribe" "email_input" "problem" "faq" "social_icons";
 }
 
 footer {
@@ -548,47 +592,6 @@ footer {
 
 .language {
   grid-area: language;
-}
-
-.icons ul li {
-  display: inline;
-}
-
-.rectangle {
-  display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "fa-thumbs-up like num";
-  height: 21px;
-  width: 80px;
-  border-radius: 2px;
-  padding: 4px 2px 0px 6px;
-  background-color: #456DB0;
-}
-
-.likes_follow {
-  text-align: justify;
-}
-
-.fa-thumbs-up {
-  width: 22px;
-  height: 22px;
-  text-align: justify;
-  grid-area: fa-thumbs-up;
-}
-
-.like {
-  color: #fff;
-  text-align: justify;
-  font-size: 13px;
-  grid-area: like;
-}
-
-.num {
-  color: #fff;
-  text-align: justify;
-  font-size: 13px;
-  grid-area: num;
 }
 
 * {

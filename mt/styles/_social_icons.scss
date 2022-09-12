@@ -1,9 +1,22 @@
+.social_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "icons icons like_button";
+  grid-area: social_icons;
+}
+
+.icons {
+display: inline;
+grid-area: icons;
+}
 
 .icons ul li {
     display: inline;
 }
 
-  .rectangle {
+  .like_button {
       display: grid;
       grid-template-columns: .5fr 1fr 1fr;
       grid-template-rows: 1fr;
@@ -14,12 +27,7 @@
       border-radius: 2px;
       padding: 4px 2px 0px 6px;
       background-color: #456DB0;
-    //   text-align:justify;
-
-  }
-
-  .likes_follow {
-    text-align:justify;
+      grid-area: like_button;
   }
 
 
@@ -30,12 +38,14 @@
     grid-area: fa-thumbs-up;
 }
 
+
 .like {
     color: #fff;
     text-align:justify;
     font-size: 13px;
     grid-area: like;
 }
+
 
 .num {
     color: #fff;

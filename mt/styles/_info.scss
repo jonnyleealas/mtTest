@@ -1,3 +1,5 @@
+@import './social_icons';
+
 .info {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
@@ -62,13 +64,5 @@ a {
     "email_input"
     "problem"
     "faq"
-    "social";
-}
-
-.social {
-    display: grid;
-    grid-template-columns: 1fr .5fr .5fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "social_icons likes follow";
+    "social_icons";
 }
