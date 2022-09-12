@@ -563,6 +563,38 @@ footer {
   background-color: #fff;
 }
 
+.rectangle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fa-thumbs-up like num";
+  height: 20px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #456DB0;
+}
+
+.fa-thumbs-up {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  grid-area: fa-thumbs-up;
+}
+
+.like {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  grid-area: like;
+}
+
+.num {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  grid-area: num;
+}
+
 * {
   margin: 0;
   padding: 0;
