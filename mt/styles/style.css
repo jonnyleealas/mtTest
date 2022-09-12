@@ -457,23 +457,6 @@ nav {
   grid-area: policy;
 }
 
-.social_icons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "icons icons like_button";
-  grid-area: social_icons;
-}
-
-.icons {
-  display: inline;
-  grid-area: icons;
-}
-
-.icons ul li {
-  display: inline;
-}
-
 .like_button {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
@@ -484,7 +467,6 @@ nav {
   border-radius: 2px;
   padding: 4px 2px 0px 6px;
   background-color: #456DB0;
-  grid-area: like_button;
 }
 
 .fa-thumbs-up {
@@ -506,6 +488,57 @@ nav {
   text-align: justify;
   font-size: 13px;
   grid-area: num;
+}
+
+.follow_button {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "twitter_follow_icon follow_text";
+  height: 21px;
+  width: 80px;
+  border-radius: 2px;
+  padding: 4px 2px 0px 6px;
+  background-color: #3F98DD;
+}
+
+.twitter_follow_icon {
+  width: 22px;
+  height: 22px;
+  text-align: justify;
+  grid-area: twitter_follow_icon;
+}
+
+.follow_text {
+  color: #fff;
+  text-align: justify;
+  font-size: 13px;
+  grid-area: follow_text;
+}
+
+.social_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "icons like_button follow_button";
+  grid-area: social_icons;
+}
+
+.icons {
+  display: inline;
+  grid-area: icons;
+}
+
+.icons ul li {
+  display: inline;
+}
+
+.like_button {
+  grid-area: like_button;
+}
+
+.follow_button {
+  grid-area: follow_button;
 }
 
 .info {
