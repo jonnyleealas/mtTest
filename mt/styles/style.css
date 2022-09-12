@@ -554,8 +554,8 @@ footer {
   display: inline;
 }
 
-.fa-stack.small {
-  font-size: 0.5em;
+.fa-pull-margin {
+  margin: 0px;
 }
 
 * {

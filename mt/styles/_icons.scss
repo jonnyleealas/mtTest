@@ -3,4 +3,7 @@
     display: inline;
 }
 
-.fa-stack.small { font-size: .5em; }
+// could be useful to set space between icons
+.fa-pull-margin {
+    margin: 0px;
+}
