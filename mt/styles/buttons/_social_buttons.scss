@@ -1,0 +1,22 @@
+@import './like_button';
+@import './follow_button';
+
+.social_buttons {
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "like_button follow_button";
+    grid-area: social_buttons;
+}
+
+.social_buttons a {
+    color: #ffff;
+}
+
+.social_buttons div a:hover {
+    color: #43B1E6;
+}
+
+
+

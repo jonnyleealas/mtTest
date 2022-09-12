@@ -457,22 +457,6 @@ nav {
   grid-area: policy;
 }
 
-.social_icons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "icons like_button follow_button";
-}
-
-.icons {
-  display: inline;
-  grid-area: icons;
-}
-
-.icons ul li {
-  display: inline;
-}
-
 .like_button {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
@@ -494,47 +478,71 @@ nav {
 }
 
 .like {
-  color: #fff;
   text-align: justify;
-  font-size: 13px;
+  font-size: 14px;
   grid-area: like;
 }
 
 .num {
-  color: #fff;
   text-align: justify;
-  font-size: 13px;
+  font-size: 14px;
   grid-area: num;
 }
 
 .follow_button {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.7fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "twitter_follow_icon follow_text";
   height: 21px;
   width: 80px;
   border-radius: 2px;
-  padding: 4px 2px 0px 6px;
+  padding: 4px 2px 0px 5px;
   background-color: #3F98DD;
 }
 
-.follow_button .twitter_follow_icon {
+.twitter_follow_icon {
   width: 22px;
   height: 22px;
-  text-align: justify;
+  text-align: right;
   grid-area: twitter_follow_icon;
 }
 
 .follow_text {
-  color: #fff;
-  text-align: justify;
-  font-size: 13px;
+  font-size: 14px;
   grid-area: follow_text;
 }
 
-.tester {
-  grid-area: tester;
+.social_buttons {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "like_button follow_button";
+  grid-area: social_buttons;
+}
+
+.social_buttons a {
+  color: white;
+}
+
+.social_buttons div a:hover {
+  color: #43B1E6;
+}
+
+.social_icons {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "icons social_buttons";
+}
+
+.icons {
+  display: inline;
+  grid-area: icons;
+}
+
+.icons ul li {
+  display: inline;
 }
 
 .info {
