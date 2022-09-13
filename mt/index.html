@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css" />
     <script src="https://kit.fontawesome.com/913c9fd51a.js" crossorigin="anonymous"></script>
-    <!-- reference your copy of Font Awesome in the head -->
-    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/sharp-solid.css" rel="stylesheet">
-
+    <script src="./count_like.js" defer></script>
     <title>Document</title>
 </head>
 <!-- Container holds all web content -->
@@ -153,7 +148,9 @@
         </div>
         <div class="pricing">
             <a href="https://www.multitracks.com/pricing/">
-                <p class="pricing">Pricing</p>
+                <p class="pricing">
+                    Pricing
+                </p>
             </a>
         </div>
         <div class="more">
@@ -266,10 +263,16 @@
         </div>
         <div class="policy">
             <p>
-                By placing your order, you agree to the <a
-                    href="https://www.multitracks.com/terms/#:~:text=Only%20one%20person%20is%20allowed,granted%20herein%20is%20expressly%20prohibited.">Terms
-                    of Use</a> and <a
-                    href="https://www.multitracks.com/terms/#:~:text=Only%20one%20person%20is%20allowed,granted%20herein%20is%20expressly%20prohibited.">Policy</a>
+                By placing your order, you agree to the
+                <a
+                    href="https://www.multitracks.com/terms/#:~:text=Only%20one%20person%20is%20allowed,granted%20herein%20is%20expressly%20prohibited.">
+                    Terms of Use
+                </a>
+                and
+                <a
+                    href="https://www.multitracks.com/terms/#:~:text=Only%20one%20person%20is%20allowed,granted%20herein%20is%20expressly%20prohibited.">
+                    Policy
+                </a>
             </p>
         </div>
     </div>
@@ -567,7 +570,6 @@
             </div>
             <!-- <div class="social"> -->
             <div class="social_icons">
-                <!-- <img src="./assets/Social Media.png" width="370px" height="24px"> -->
                 <div class="icons">
                     <ul>
                         <li>
@@ -610,41 +612,47 @@
                             <i class="fa-solid fa-thumbs-up"></i>
                         </div>
                         <div class="like">Like</div>
-                        <div class="num">23k</div>
+                        <div class="num" id="counter"></div>
                     </div>
                     <a href="https://twitter.com/multitracks_?lang=en">
-                    <div class="follow_button">
-                        <div class="twitter_follow_icon">
-                            <i class="fab fa-twitter fa-inverse"></i>
-                        </div>
-                        <div class="follow_text">
-                               <p>Follow</p>
+                        <div class="follow_button">
+                            <div class="twitter_follow_icon">
+                                <i class="fab fa-twitter fa-inverse"></i>
+                            </div>
+                            <div class="follow_text">
+                                <p>Follow</p>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
-
     </div>
-    <!-- </div> -->
     <!-- Footer without shoes -->
-<footer class="footer">
-    <div class="copyrights">
-        2006-2021 by multitracks LLC. All Rights Reserved
-    </div>
-    <div class="terms">
-        <p>
-            <a href="Terms">Terms</a> | <a href="https://www.multitracks.com/privacy/">Privacy</a> | <a
-                href="https://www.multitracks.com/contact/">Contact</a>
-        </p>
-    </div>
-    <div class="language">
-        language
-    </div>
-</footer>
+    <footer class="footer">
+        <div class="copyrights">
+            2006-2021 by multitracks LLC. All Rights Reserved
+        </div>
+        <div class="terms">
+            <p>
+                <a href="Terms">
+                    Terms
+                </a>
+                    |
+                <a href="https://www.multitracks.com/privacy/">
+                    Privacy
+                </a>
+                    |
+                <a href="https://www.multitracks.com/contact/">
+                    Contact
+                </a>
+            </p>
+        </div>
+        <div class="language">
+            language
+        </div>
+    </footer>
 </div>
-
 <div class="mobile_sticky">
     <button><img src="./assets/Sticky Total.png"></button>
 </div>

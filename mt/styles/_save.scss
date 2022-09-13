@@ -9,7 +9,6 @@
         "song_5"
         "song_5_empty";
         grid-area: save;
-
 }
 
 .save_later {
@@ -30,7 +29,6 @@
     margin-top: 10px;
 }
 
-
 .song_4 {
     display: grid;
     height: 100%;
@@ -44,7 +42,6 @@
     margin-left: 20px;
 }
 
-
 .song_5 {
     display: grid;
     height: 100%;
@@ -57,7 +54,6 @@
     margin-top: 60;
     margin-left: 20px;
 }
-
 
 .song_5_empty {
     grid-area: song_5;

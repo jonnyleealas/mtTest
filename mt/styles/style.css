@@ -488,6 +488,7 @@ nav {
 }
 
 .num {
+  color: #fff;
   text-align: justify;
   font-size: 14px;
   grid-area: num;
