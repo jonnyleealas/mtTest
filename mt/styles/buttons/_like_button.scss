@@ -12,6 +12,11 @@
     grid-area: like_button;
 }
 
+.like_button:hover {
+    color:#43B1E6;
+}
+
+
 
 .fa-thumbs-up {
   width: 22px;
@@ -19,6 +24,12 @@
   text-align:justify;
   grid-area: fa-thumbs-up;
 }
+
+// .fa-thumbs-up:hover {
+//     color:#3F98DD;
+// }
+
+
 
 
 .like {

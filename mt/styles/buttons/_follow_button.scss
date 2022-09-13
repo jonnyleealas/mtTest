@@ -1,4 +1,3 @@
-
 .follow_button {
     display: grid;
     grid-template-columns: .7fr 1fr;
@@ -10,22 +9,35 @@
     border-radius: 2px;
     padding: 4px 2px 0px 5px;
     background-color: #3F98DD;
+    grid-area: follow_button;
+}
+
+.follow_button i:hover {
+    color: #43B1E6;
 }
 
 
-
-
 .twitter_follow_icon {
-  width: 22px;
-  height: 22px;
-  text-align:right;
-  grid-area: twitter_follow_icon;
+    width: 22px;
+    height: 22px;
+    text-align:right;
+    grid-area: twitter_follow_icon;
 }
 
 
 .follow_text {
-  font-size: 14px;
-  grid-area: follow_text;
+    color: #fff;
+    font-size: 14px;
+    grid-area: follow_text;
+}
+.follow_text a p {
+    color: #fff;
+}
+
+
+
+.follow_text:hover {
+    color: #43B1E6;
 }
 
 
