@@ -472,6 +472,7 @@ nav {
 
 .like_button:hover {
   color: #43B1E6;
+  cursor: pointer;
 }
 
 .fa-thumbs-up {
@@ -489,7 +490,7 @@ nav {
 
 .num {
   color: #fff;
-  text-align: justify;
+  text-align: center;
   font-size: 14px;
   grid-area: num;
 }
