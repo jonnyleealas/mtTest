@@ -7,11 +7,11 @@
 nav {
     display: grid;
     text-align: center;
-    grid-template-columns: 2.5fr .8fr .8fr .5fr .8fr .4fr .8fr 3.8fr .8fr .8fr .8fr .8fr;
+    grid-template-columns: 1fr .3fr .3fr .3fr .3fr .3fr .3fr 1fr 1fr 1fr 1fr .3fr .3fr .3fr .3fr;
     grid-template-rows:
     1fr;
     grid-template-areas:
-    "nav_logo products songs sounds pricing more covid . account cart support help_center";
+    "nav_logo products songs sounds pricing more covid . . . . account cart support help_center";
     padding: 15px 10px 10px 10px;
     grid-area: nav;
     border: 1px solid #DADADA;
@@ -36,6 +36,7 @@ nav {
 }
 
 .pricing {
+    text-align: left;
     grid-area: pricing;
 }
 
@@ -48,6 +49,7 @@ nav {
 }
 
 .covid {
+    text-align: left;
     grid-area: covid;
     color: #43B1E6;
 }
