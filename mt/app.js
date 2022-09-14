@@ -1,8 +1,8 @@
-var button = document.getElementById('counter');
+var button_counter = document.getElementById('counter');
 var counter = document.getElementById('number');
 var count = 0;
-counter.onclick = function () {
+button_counter.onclick = function () {
     count += 1;
-    counter.toString().innerHTML = count;
+    console.log("why all the types");
+    counter.innerText = "".concat(count);
 };
-console.log('henry kisanger likes');
