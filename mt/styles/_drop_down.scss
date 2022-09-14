@@ -46,12 +46,16 @@
         background: #FAFAFA;
         border-radius: 4px;
         color: #43B1E6;
+    }
 
+    #products_ul {
+        text-align: left;
     }
 }
 
 @mixin songs($songs) {
     .songs {
+        padding-left: 9px;
         grid-area: $songs;
     }
 
@@ -93,13 +97,16 @@
     .songs ul li ul li a {
         width: 241px;
         padding: 10px 14px;
-
     }
 
     .songs ul li ul li a:hover {
         background: #FAFAFA;
         border-radius: 4px;
         color: #43B1E6;
+    }
+
+    #songs_ul {
+        text-align: left;
     }
 }
 
@@ -155,6 +162,10 @@
         border-radius: 4px;
         color: #43B1E6;
     }
+
+    #sounds_ul {
+        text-align: left;
+    }
 }
 
 
@@ -207,5 +218,9 @@
         background: #FAFAFA;
         border-radius: 4px;
         color: #43B1E6;
+    }
+
+    #more_ul {
+        text-align: left;
     }
 }

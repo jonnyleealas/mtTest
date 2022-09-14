@@ -47,7 +47,12 @@
   color: #43B1E6;
 }
 
+#products_ul {
+  text-align: left;
+}
+
 .songs {
+  padding-left: 9px;
   grid-area: songs;
 }
 
@@ -94,6 +99,10 @@
   background: #FAFAFA;
   border-radius: 4px;
   color: #43B1E6;
+}
+
+#songs_ul {
+  text-align: left;
 }
 
 .sounds {
@@ -145,6 +154,10 @@
   color: #43B1E6;
 }
 
+#sounds_ul {
+  text-align: left;
+}
+
 .more {
   grid-area: more;
 }
@@ -192,6 +205,10 @@
   background: #FAFAFA;
   border-radius: 4px;
   color: #43B1E6;
+}
+
+#more_ul {
+  text-align: left;
 }
 
 nav {
@@ -267,7 +284,9 @@ nav {
 }
 
 .help_center {
+  text-align: center;
   grid-area: help_center;
+  color: #828282;
 }
 
 .my_cart {
